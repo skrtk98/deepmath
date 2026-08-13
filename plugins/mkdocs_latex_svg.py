@@ -228,13 +228,6 @@ class LatexSvgPlugin(BasePlugin):
         self.out_dir = (self.docs_dir / self.gen_dir).resolve()
         self.out_dir.mkdir(parents=True, exist_ok=True)
 
-        if not self.enabled:
-            return config
-
-        for cmd in ("latexmk", "pdf2svg"):
-            if shutil.which(cmd) is None:
-                raise RuntimeError(f"Required command '{cmd}' not found in PATH")
-
         return config
 
     def on_page_markdown(self, markdown, page, config, files):
@@ -303,6 +296,12 @@ class LatexSvgPlugin(BasePlugin):
         return P_WRAPPED_LATEX_BLOCK_RE.sub(lambda m: m.group("block"), html)
 
     def _build_svg(self, tex: str, h: str):
+
+        for cmd in ("latexmk", "pdf2svg"):
+            if shutil.which(cmd) is None:
+                raise RuntimeError(
+                    f"Required command '{cmd}' not found in PATH while building LaTeX SVG"
+                )
 
         work = self.out_dir / f"work_{h}"
         work.mkdir(parents=True, exist_ok=True)
