@@ -1,0 +1,22 @@
+---
+tags:
+  - 幾何学/微分幾何
+  - ベクトル束
+  - 接空間
+  - 局所自明性
+---
+
+# 接束
+
+## 定義
+
+滑らか多様体 $`M`$ の点 $`x`$ における接空間を $`T_xM`$ と表す。
+
+> [!definition] 接束
+> $`M`$ の **接束** (*tangent bundle*) とは、
+> ```math
+> TM=\bigsqcup_{x\in M}T_xM
+> ```
+> と射影 $`\pi\colon TM\to M`$ により定まるベクトル束である。
+
+ユークリッド空間では、$`T\mathbb{R}^n\cong\mathbb{R}^n\times\mathbb{R}^n`$ が成り立つ。
