@@ -23,6 +23,15 @@
 - Keep blank lines around headings, lists, tables, and fenced code blocks. Preserve any formatting constraints specified by the user.
 - For formulas, follow the MathJax and fenced-math conventions already used in the surrounding page. Do not add a second math-rendering pipeline without a clear need.
 
+## Concept tags
+
+- Add YAML front matter with tags to every substantive concept page under `docs/wiki/`. Do not tag empty placeholder files; add tags when their content is written.
+- Assign at least one **field hierarchy tag**, using slash-separated Japanese names such as `代数学/群論`, `代数学/環論`, or `圏論`. Add a more specific child only when it improves discovery, for example `代数学/群論/可換群`.
+- Assign one to three **cross-cutting concept tags** that express reusable mathematical relationships or properties, such as `加法構造`, `準同型`, `商構成`, `部分構造`, `生成`, `可換性`, or `分配法則`.
+- Do not use generic document-type tags such as `定義`, `命題`, `証明`, or `数学`. Tags must support finding related concepts across fields.
+- Reuse established tag spellings. Introduce a new tag only when no existing field or cross-cutting tag captures the relationship; prefer a concise noun phrase.
+- Keep the global index at `docs/tags.md` with the `<!-- material/tags -->` marker. Do not use the deprecated `tags_file` plugin option.
+
 ## Custom MkDocs plugins
 
 - Keep plugin configuration schemas and corresponding `mkdocs.yml` options in sync.

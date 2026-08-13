@@ -1,3 +1,10 @@
+---
+tags:
+  - 代数学/群論
+  - 逆元
+  - 対称性
+---
+
 # 群
 
 ## 定義
@@ -16,6 +23,10 @@
 > - 逆元律：任意の $`a\in G`$ に対して $`a\cdot\iota(a)=\iota(a)\cdot a=e`$.
 >
 > 集合 $`G`$ と $`G`$ 上の群構造 $`(\,\cdot\,, \iota, e)`$ の組 $`(G; \,\cdot\,, \iota, e)`$ を**群** (*group*) といい、集合 $`G`$ をこの群の**台集合** (*underlying set*) という。
+
+以下では、群 $`G`$ の単位元を $`1_G`$ と表す。
+
+群の演算記号 $`\cdot`$ は、混同のおそれがない限り省略して表す。
 
 > [!proposition] 単位元と逆元の一意性
 > 群において単位元は一意であり、各元の逆元も一意である。
@@ -49,8 +60,29 @@
 > - 単位元の存在：$`\exists e\in G\text{ s.t. }\forall a\in G,a\cdot e=e\cdot a=a`$,
 > - 逆元の存在：$`\forall a\in G,\exists b\in G\text{ s.t. }a\cdot b=b\cdot a=e`$.
 
+## 整数冪
+
+群では、同じ元を繰り返し掛ける操作を整数で添字付けできる。
+
+> [!definition] 整数冪
+> 群 $`G`$ の元 $`g\in G`$ と整数 $`n\in\mathbb{Z}`$ に対して、$`g`$ の **$`n`$ 乗** $`g^n`$ を次で定める。
+>
+> ```math
+> g^n \coloneqq
+> \begin{cases}
+> \underbrace{g\cdots g}_{n\text{ 個}} & (n>0),\\
+> 1_G & (n=0),\\
+> \underbrace{g^{-1}\cdots g^{-1}}_{-n\text{ 個}} & (n<0).
+> \end{cases}
+> ```
+
+この定義と結合律から、任意の $`m,n\in\mathbb{Z}`$ に対して次が成り立つ。
+
+```math
+g^{m+n}=g^m g^n,\qquad \left(g^m\right)^n=g^{mn}.
+```
+
 群 $`G`$ が [アーベル群 (*abelian group*)](./abelian_group.md) であるとは、2 つの元の積をとる順序が可換であるような群のことである。すなわち、次の可換性を満たす:
 ```math
 \forall a,b\in G,a\cdot b = b\cdot a
 ```
-

@@ -2,6 +2,7 @@ site_name: DeepMath
 
 nav:
   - Home: index.md
+  - 概念索引: tags.md
 
 markdown_extensions:
   - nl2br
@@ -31,7 +32,6 @@ extra_javascript:
 plugins:
   - tags:
       tags_hierarchy: true
-      tags_file: tags.md
   - search:
       lang: ja
   - css-build:
