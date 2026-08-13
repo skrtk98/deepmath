@@ -1,0 +1,162 @@
+@use "sass:list";
+@use "sass:string";
+
+.latex-svg-block { margin: 1em 0; }
+.latex-svg-inner svg { display: block; margin: 0 auto; max-width: 100%; height: auto; }
+.dm-callout-split { display: none; }
+
+/* Make LaTeX-generated SVG diagrams readable in dark mode. */
+[data-md-color-scheme="slate"] .latex-svg-inner svg [fill="rgb(0%, 0%, 0%)"],
+[data-md-color-scheme="slate"] .latex-svg-inner svg [fill="#000"],
+[data-md-color-scheme="slate"] .latex-svg-inner svg [fill="#000000"] {
+  fill: #fff;
+}
+
+[data-md-color-scheme="slate"] .latex-svg-inner svg [stroke="rgb(0%, 0%, 0%)"],
+[data-md-color-scheme="slate"] .latex-svg-inner svg [stroke="#000"],
+[data-md-color-scheme="slate"] .latex-svg-inner svg [stroke="#000000"] {
+  stroke: #fff;
+}
+
+dt.dm-callout-collapsible {
+  cursor: pointer;
+  user-select: none;
+}
+
+dt.dm-callout-collapsible::after {
+  content: "▾";
+  margin-left: 0.4em;
+  font-size: 0.9em;
+}
+
+dt.dm-callout-collapsible.dm-callout-closed::after {
+  content: "▸";
+}
+
+/* Heading and theorem-like numbering */
+
+$kinds: (
+  definition: "Definition",
+  theorem: "Theorem",
+  lemma: "Lemma",
+  proposition: "Proposition",
+  corollary: "Corollary",
+  example: "Example",
+  axiom: "Axiom",
+  note: "Note",
+  warning: "Warning",
+);
+
+$all-levels: (none, section, subsection, subsubsection);
+$section-and-below-levels: (section, subsection, subsubsection);
+$subsection-and-below-levels: (subsection, subsubsection);
+$subsubsection-levels: (subsubsection);
+
+@function dm-counter-list($levels) {
+  $out: ();
+  @each $kind, $label in $kinds {
+    @each $level in $levels {
+      $out: list.append($out, string.unquote("dm-#{$kind}-#{$level}"), $separator: space);
+    }
+  }
+  @return $out;
+}
+
+dl {
+  margin: 1.2em 0;
+}
+
+dl dt {
+  font-weight: 600;
+  margin-bottom: 0.25em;
+}
+
+dl dd {
+  margin-left: 2em;
+}
+
+main,
+article,
+.md-content,
+.md-content__inner {
+  counter-reset:
+    dm-section
+    dm-subsection
+    dm-subsubsection
+    dm-counter-list($all-levels);
+}
+
+h2 {
+  counter-increment: dm-section;
+  counter-reset:
+    dm-subsection
+    dm-subsubsection
+    dm-counter-list($section-and-below-levels);
+}
+
+h3 {
+  counter-increment: dm-subsection;
+  counter-reset:
+    dm-subsubsection
+    dm-counter-list($subsection-and-below-levels);
+}
+
+h4 {
+  counter-increment: dm-subsubsection;
+  counter-reset: dm-counter-list($subsubsection-levels);
+}
+
+h2::before {
+  content: counter(dm-section) ". ";
+}
+
+h3::before {
+  content: counter(dm-section) "." counter(dm-subsection) ". ";
+}
+
+h4::before {
+  content: counter(dm-section) "." counter(dm-subsection) "." counter(dm-subsubsection) ". ";
+}
+
+@each $kind, $label in $kinds {
+  dt.#{$kind}.within-none { counter-increment: dm-#{$kind}-none; }
+  dt.#{$kind}.within-section { counter-increment: dm-#{$kind}-section; }
+  dt.#{$kind}.within-subsection { counter-increment: dm-#{$kind}-subsection; }
+  dt.#{$kind}.within-subsubsection { counter-increment: dm-#{$kind}-subsubsection; }
+  dt.#{$kind}:not(.within-none):not(.within-section):not(.within-subsection):not(.within-subsubsection) {
+    counter-increment: dm-#{$kind}-subsubsection;
+  }
+}
+
+@each $kind, $label in $kinds {
+  dt.#{$kind}.within-none::before {
+    content: "#{$label} " counter(dm-#{$kind}-none) ". ";
+  }
+
+  dt.#{$kind}.within-section::before {
+    content: "#{$label} " counter(dm-section) "." counter(dm-#{$kind}-section) ". ";
+  }
+
+  dt.#{$kind}.within-subsection::before {
+    content: "#{$label} " counter(dm-section) "." counter(dm-subsection) "." counter(dm-#{$kind}-subsection) ". ";
+  }
+
+  dt.#{$kind}.within-subsubsection::before {
+    content: "#{$label} " counter(dm-section) "." counter(dm-subsection) "." counter(dm-subsubsection) "." counter(dm-#{$kind}-subsubsection) ". ";
+  }
+
+  dt.#{$kind}:not(.within-none):not(.within-section):not(.within-subsection):not(.within-subsubsection)::before {
+    content: "#{$label} " counter(dm-section) "." counter(dm-subsection) "." counter(dm-subsubsection) "." counter(dm-#{$kind}-subsubsection) ". ";
+  }
+}
+
+dt.proof::before {
+  content: "Proof. ";
+  font-style: italic;
+}
+
+dd:has(+ dt.proof),
+dt.proof + dd::after {
+  content: "□";
+  float: right;
+}

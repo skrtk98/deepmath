@@ -1,0 +1,24 @@
+[project]
+name = "deepmath"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "markdown-katex>=202406.1035",
+    "mkdocs>=1.6.1",
+    "mkdocs-material[recommended]>=9.7.3",
+    "pypdf>=6.7.5",
+]
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["plugins"]
+
+[project.entry-points."mkdocs.plugins"]
+latex-svg = "plugins.mkdocs_latex_svg:LatexSvgPlugin"
+callouts  = "plugins.mkdocs_callouts:CalloutsPlugin"
+css-build = "plugins.mkdocs_css_build:CssBuildPlugin"

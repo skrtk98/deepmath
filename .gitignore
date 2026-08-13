@@ -1,0 +1,21 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+site/
+
+.crossnote/
+.source/
+_gen_latex_svg/
+node_modules/
+package-lock.json
+
+*.tar.gz
+
+drafts/

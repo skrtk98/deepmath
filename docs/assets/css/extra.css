@@ -1,0 +1,464 @@
+@charset "UTF-8";
+.latex-svg-block {
+  margin: 1em 0;
+}
+
+.latex-svg-inner svg {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.dm-callout-split {
+  display: none;
+}
+
+/* Make LaTeX-generated SVG diagrams readable in dark mode. */
+[data-md-color-scheme=slate] .latex-svg-inner svg [fill="rgb(0%, 0%, 0%)"],
+[data-md-color-scheme=slate] .latex-svg-inner svg [fill="#000"],
+[data-md-color-scheme=slate] .latex-svg-inner svg [fill="#000000"] {
+  fill: #fff;
+}
+
+[data-md-color-scheme=slate] .latex-svg-inner svg [stroke="rgb(0%, 0%, 0%)"],
+[data-md-color-scheme=slate] .latex-svg-inner svg [stroke="#000"],
+[data-md-color-scheme=slate] .latex-svg-inner svg [stroke="#000000"] {
+  stroke: #fff;
+}
+
+dt.dm-callout-collapsible {
+  cursor: pointer;
+  user-select: none;
+}
+
+dt.dm-callout-collapsible::after {
+  content: "▾";
+  margin-left: 0.4em;
+  font-size: 0.9em;
+}
+
+dt.dm-callout-collapsible.dm-callout-closed::after {
+  content: "▸";
+}
+
+/* Heading and theorem-like numbering */
+dl {
+  margin: 1.2em 0;
+}
+
+dl dt {
+  font-weight: 600;
+  margin-bottom: 0.25em;
+}
+
+dl dd {
+  margin-left: 2em;
+}
+
+main,
+article,
+.md-content,
+.md-content__inner {
+  counter-reset: dm-section dm-subsection dm-subsubsection dm-definition-none dm-definition-section dm-definition-subsection dm-definition-subsubsection dm-theorem-none dm-theorem-section dm-theorem-subsection dm-theorem-subsubsection dm-lemma-none dm-lemma-section dm-lemma-subsection dm-lemma-subsubsection dm-proposition-none dm-proposition-section dm-proposition-subsection dm-proposition-subsubsection dm-corollary-none dm-corollary-section dm-corollary-subsection dm-corollary-subsubsection dm-example-none dm-example-section dm-example-subsection dm-example-subsubsection dm-axiom-none dm-axiom-section dm-axiom-subsection dm-axiom-subsubsection dm-note-none dm-note-section dm-note-subsection dm-note-subsubsection dm-warning-none dm-warning-section dm-warning-subsection dm-warning-subsubsection;
+}
+
+h2 {
+  counter-increment: dm-section;
+  counter-reset: dm-subsection dm-subsubsection dm-definition-section dm-definition-subsection dm-definition-subsubsection dm-theorem-section dm-theorem-subsection dm-theorem-subsubsection dm-lemma-section dm-lemma-subsection dm-lemma-subsubsection dm-proposition-section dm-proposition-subsection dm-proposition-subsubsection dm-corollary-section dm-corollary-subsection dm-corollary-subsubsection dm-example-section dm-example-subsection dm-example-subsubsection dm-axiom-section dm-axiom-subsection dm-axiom-subsubsection dm-note-section dm-note-subsection dm-note-subsubsection dm-warning-section dm-warning-subsection dm-warning-subsubsection;
+}
+
+h3 {
+  counter-increment: dm-subsection;
+  counter-reset: dm-subsubsection dm-definition-subsection dm-definition-subsubsection dm-theorem-subsection dm-theorem-subsubsection dm-lemma-subsection dm-lemma-subsubsection dm-proposition-subsection dm-proposition-subsubsection dm-corollary-subsection dm-corollary-subsubsection dm-example-subsection dm-example-subsubsection dm-axiom-subsection dm-axiom-subsubsection dm-note-subsection dm-note-subsubsection dm-warning-subsection dm-warning-subsubsection;
+}
+
+h4 {
+  counter-increment: dm-subsubsection;
+  counter-reset: dm-definition-subsubsection dm-theorem-subsubsection dm-lemma-subsubsection dm-proposition-subsubsection dm-corollary-subsubsection dm-example-subsubsection dm-axiom-subsubsection dm-note-subsubsection dm-warning-subsubsection;
+}
+
+h2::before {
+  content: counter(dm-section) ". ";
+}
+
+h3::before {
+  content: counter(dm-section) "." counter(dm-subsection) ". ";
+}
+
+h4::before {
+  content: counter(dm-section) "." counter(dm-subsection) "." counter(dm-subsubsection) ". ";
+}
+
+dt.definition.within-none {
+  counter-increment: dm-definition-none;
+}
+
+dt.definition.within-section {
+  counter-increment: dm-definition-section;
+}
+
+dt.definition.within-subsection {
+  counter-increment: dm-definition-subsection;
+}
+
+dt.definition.within-subsubsection {
+  counter-increment: dm-definition-subsubsection;
+}
+
+dt.definition:not(.within-none):not(.within-section):not(.within-subsection):not(.within-subsubsection) {
+  counter-increment: dm-definition-subsubsection;
+}
+
+dt.theorem.within-none {
+  counter-increment: dm-theorem-none;
+}
+
+dt.theorem.within-section {
+  counter-increment: dm-theorem-section;
+}
+
+dt.theorem.within-subsection {
+  counter-increment: dm-theorem-subsection;
+}
+
+dt.theorem.within-subsubsection {
+  counter-increment: dm-theorem-subsubsection;
+}
+
+dt.theorem:not(.within-none):not(.within-section):not(.within-subsection):not(.within-subsubsection) {
+  counter-increment: dm-theorem-subsubsection;
+}
+
+dt.lemma.within-none {
+  counter-increment: dm-lemma-none;
+}
+
+dt.lemma.within-section {
+  counter-increment: dm-lemma-section;
+}
+
+dt.lemma.within-subsection {
+  counter-increment: dm-lemma-subsection;
+}
+
+dt.lemma.within-subsubsection {
+  counter-increment: dm-lemma-subsubsection;
+}
+
+dt.lemma:not(.within-none):not(.within-section):not(.within-subsection):not(.within-subsubsection) {
+  counter-increment: dm-lemma-subsubsection;
+}
+
+dt.proposition.within-none {
+  counter-increment: dm-proposition-none;
+}
+
+dt.proposition.within-section {
+  counter-increment: dm-proposition-section;
+}
+
+dt.proposition.within-subsection {
+  counter-increment: dm-proposition-subsection;
+}
+
+dt.proposition.within-subsubsection {
+  counter-increment: dm-proposition-subsubsection;
+}
+
+dt.proposition:not(.within-none):not(.within-section):not(.within-subsection):not(.within-subsubsection) {
+  counter-increment: dm-proposition-subsubsection;
+}
+
+dt.corollary.within-none {
+  counter-increment: dm-corollary-none;
+}
+
+dt.corollary.within-section {
+  counter-increment: dm-corollary-section;
+}
+
+dt.corollary.within-subsection {
+  counter-increment: dm-corollary-subsection;
+}
+
+dt.corollary.within-subsubsection {
+  counter-increment: dm-corollary-subsubsection;
+}
+
+dt.corollary:not(.within-none):not(.within-section):not(.within-subsection):not(.within-subsubsection) {
+  counter-increment: dm-corollary-subsubsection;
+}
+
+dt.example.within-none {
+  counter-increment: dm-example-none;
+}
+
+dt.example.within-section {
+  counter-increment: dm-example-section;
+}
+
+dt.example.within-subsection {
+  counter-increment: dm-example-subsection;
+}
+
+dt.example.within-subsubsection {
+  counter-increment: dm-example-subsubsection;
+}
+
+dt.example:not(.within-none):not(.within-section):not(.within-subsection):not(.within-subsubsection) {
+  counter-increment: dm-example-subsubsection;
+}
+
+dt.axiom.within-none {
+  counter-increment: dm-axiom-none;
+}
+
+dt.axiom.within-section {
+  counter-increment: dm-axiom-section;
+}
+
+dt.axiom.within-subsection {
+  counter-increment: dm-axiom-subsection;
+}
+
+dt.axiom.within-subsubsection {
+  counter-increment: dm-axiom-subsubsection;
+}
+
+dt.axiom:not(.within-none):not(.within-section):not(.within-subsection):not(.within-subsubsection) {
+  counter-increment: dm-axiom-subsubsection;
+}
+
+dt.note.within-none {
+  counter-increment: dm-note-none;
+}
+
+dt.note.within-section {
+  counter-increment: dm-note-section;
+}
+
+dt.note.within-subsection {
+  counter-increment: dm-note-subsection;
+}
+
+dt.note.within-subsubsection {
+  counter-increment: dm-note-subsubsection;
+}
+
+dt.note:not(.within-none):not(.within-section):not(.within-subsection):not(.within-subsubsection) {
+  counter-increment: dm-note-subsubsection;
+}
+
+dt.warning.within-none {
+  counter-increment: dm-warning-none;
+}
+
+dt.warning.within-section {
+  counter-increment: dm-warning-section;
+}
+
+dt.warning.within-subsection {
+  counter-increment: dm-warning-subsection;
+}
+
+dt.warning.within-subsubsection {
+  counter-increment: dm-warning-subsubsection;
+}
+
+dt.warning:not(.within-none):not(.within-section):not(.within-subsection):not(.within-subsubsection) {
+  counter-increment: dm-warning-subsubsection;
+}
+
+dt.definition.within-none::before {
+  content: "Definition " counter(dm-definition-none) ". ";
+}
+
+dt.definition.within-section::before {
+  content: "Definition " counter(dm-section) "." counter(dm-definition-section) ". ";
+}
+
+dt.definition.within-subsection::before {
+  content: "Definition " counter(dm-section) "." counter(dm-subsection) "." counter(dm-definition-subsection) ". ";
+}
+
+dt.definition.within-subsubsection::before {
+  content: "Definition " counter(dm-section) "." counter(dm-subsection) "." counter(dm-subsubsection) "." counter(dm-definition-subsubsection) ". ";
+}
+
+dt.definition:not(.within-none):not(.within-section):not(.within-subsection):not(.within-subsubsection)::before {
+  content: "Definition " counter(dm-section) "." counter(dm-subsection) "." counter(dm-subsubsection) "." counter(dm-definition-subsubsection) ". ";
+}
+
+dt.theorem.within-none::before {
+  content: "Theorem " counter(dm-theorem-none) ". ";
+}
+
+dt.theorem.within-section::before {
+  content: "Theorem " counter(dm-section) "." counter(dm-theorem-section) ". ";
+}
+
+dt.theorem.within-subsection::before {
+  content: "Theorem " counter(dm-section) "." counter(dm-subsection) "." counter(dm-theorem-subsection) ". ";
+}
+
+dt.theorem.within-subsubsection::before {
+  content: "Theorem " counter(dm-section) "." counter(dm-subsection) "." counter(dm-subsubsection) "." counter(dm-theorem-subsubsection) ". ";
+}
+
+dt.theorem:not(.within-none):not(.within-section):not(.within-subsection):not(.within-subsubsection)::before {
+  content: "Theorem " counter(dm-section) "." counter(dm-subsection) "." counter(dm-subsubsection) "." counter(dm-theorem-subsubsection) ". ";
+}
+
+dt.lemma.within-none::before {
+  content: "Lemma " counter(dm-lemma-none) ". ";
+}
+
+dt.lemma.within-section::before {
+  content: "Lemma " counter(dm-section) "." counter(dm-lemma-section) ". ";
+}
+
+dt.lemma.within-subsection::before {
+  content: "Lemma " counter(dm-section) "." counter(dm-subsection) "." counter(dm-lemma-subsection) ". ";
+}
+
+dt.lemma.within-subsubsection::before {
+  content: "Lemma " counter(dm-section) "." counter(dm-subsection) "." counter(dm-subsubsection) "." counter(dm-lemma-subsubsection) ". ";
+}
+
+dt.lemma:not(.within-none):not(.within-section):not(.within-subsection):not(.within-subsubsection)::before {
+  content: "Lemma " counter(dm-section) "." counter(dm-subsection) "." counter(dm-subsubsection) "." counter(dm-lemma-subsubsection) ". ";
+}
+
+dt.proposition.within-none::before {
+  content: "Proposition " counter(dm-proposition-none) ". ";
+}
+
+dt.proposition.within-section::before {
+  content: "Proposition " counter(dm-section) "." counter(dm-proposition-section) ". ";
+}
+
+dt.proposition.within-subsection::before {
+  content: "Proposition " counter(dm-section) "." counter(dm-subsection) "." counter(dm-proposition-subsection) ". ";
+}
+
+dt.proposition.within-subsubsection::before {
+  content: "Proposition " counter(dm-section) "." counter(dm-subsection) "." counter(dm-subsubsection) "." counter(dm-proposition-subsubsection) ". ";
+}
+
+dt.proposition:not(.within-none):not(.within-section):not(.within-subsection):not(.within-subsubsection)::before {
+  content: "Proposition " counter(dm-section) "." counter(dm-subsection) "." counter(dm-subsubsection) "." counter(dm-proposition-subsubsection) ". ";
+}
+
+dt.corollary.within-none::before {
+  content: "Corollary " counter(dm-corollary-none) ". ";
+}
+
+dt.corollary.within-section::before {
+  content: "Corollary " counter(dm-section) "." counter(dm-corollary-section) ". ";
+}
+
+dt.corollary.within-subsection::before {
+  content: "Corollary " counter(dm-section) "." counter(dm-subsection) "." counter(dm-corollary-subsection) ". ";
+}
+
+dt.corollary.within-subsubsection::before {
+  content: "Corollary " counter(dm-section) "." counter(dm-subsection) "." counter(dm-subsubsection) "." counter(dm-corollary-subsubsection) ". ";
+}
+
+dt.corollary:not(.within-none):not(.within-section):not(.within-subsection):not(.within-subsubsection)::before {
+  content: "Corollary " counter(dm-section) "." counter(dm-subsection) "." counter(dm-subsubsection) "." counter(dm-corollary-subsubsection) ". ";
+}
+
+dt.example.within-none::before {
+  content: "Example " counter(dm-example-none) ". ";
+}
+
+dt.example.within-section::before {
+  content: "Example " counter(dm-section) "." counter(dm-example-section) ". ";
+}
+
+dt.example.within-subsection::before {
+  content: "Example " counter(dm-section) "." counter(dm-subsection) "." counter(dm-example-subsection) ". ";
+}
+
+dt.example.within-subsubsection::before {
+  content: "Example " counter(dm-section) "." counter(dm-subsection) "." counter(dm-subsubsection) "." counter(dm-example-subsubsection) ". ";
+}
+
+dt.example:not(.within-none):not(.within-section):not(.within-subsection):not(.within-subsubsection)::before {
+  content: "Example " counter(dm-section) "." counter(dm-subsection) "." counter(dm-subsubsection) "." counter(dm-example-subsubsection) ". ";
+}
+
+dt.axiom.within-none::before {
+  content: "Axiom " counter(dm-axiom-none) ". ";
+}
+
+dt.axiom.within-section::before {
+  content: "Axiom " counter(dm-section) "." counter(dm-axiom-section) ". ";
+}
+
+dt.axiom.within-subsection::before {
+  content: "Axiom " counter(dm-section) "." counter(dm-subsection) "." counter(dm-axiom-subsection) ". ";
+}
+
+dt.axiom.within-subsubsection::before {
+  content: "Axiom " counter(dm-section) "." counter(dm-subsection) "." counter(dm-subsubsection) "." counter(dm-axiom-subsubsection) ". ";
+}
+
+dt.axiom:not(.within-none):not(.within-section):not(.within-subsection):not(.within-subsubsection)::before {
+  content: "Axiom " counter(dm-section) "." counter(dm-subsection) "." counter(dm-subsubsection) "." counter(dm-axiom-subsubsection) ". ";
+}
+
+dt.note.within-none::before {
+  content: "Note " counter(dm-note-none) ". ";
+}
+
+dt.note.within-section::before {
+  content: "Note " counter(dm-section) "." counter(dm-note-section) ". ";
+}
+
+dt.note.within-subsection::before {
+  content: "Note " counter(dm-section) "." counter(dm-subsection) "." counter(dm-note-subsection) ". ";
+}
+
+dt.note.within-subsubsection::before {
+  content: "Note " counter(dm-section) "." counter(dm-subsection) "." counter(dm-subsubsection) "." counter(dm-note-subsubsection) ". ";
+}
+
+dt.note:not(.within-none):not(.within-section):not(.within-subsection):not(.within-subsubsection)::before {
+  content: "Note " counter(dm-section) "." counter(dm-subsection) "." counter(dm-subsubsection) "." counter(dm-note-subsubsection) ". ";
+}
+
+dt.warning.within-none::before {
+  content: "Warning " counter(dm-warning-none) ". ";
+}
+
+dt.warning.within-section::before {
+  content: "Warning " counter(dm-section) "." counter(dm-warning-section) ". ";
+}
+
+dt.warning.within-subsection::before {
+  content: "Warning " counter(dm-section) "." counter(dm-subsection) "." counter(dm-warning-subsection) ". ";
+}
+
+dt.warning.within-subsubsection::before {
+  content: "Warning " counter(dm-section) "." counter(dm-subsection) "." counter(dm-subsubsection) "." counter(dm-warning-subsubsection) ". ";
+}
+
+dt.warning:not(.within-none):not(.within-section):not(.within-subsection):not(.within-subsubsection)::before {
+  content: "Warning " counter(dm-section) "." counter(dm-subsection) "." counter(dm-subsubsection) "." counter(dm-warning-subsubsection) ". ";
+}
+
+dt.proof::before {
+  content: "Proof. ";
+  font-style: italic;
+}
+
+dd:has(+ dt.proof),
+dt.proof + dd::after {
+  content: "□";
+  float: right;
+}
+
+/*# sourceMappingURL=extra.css.map */

@@ -1,0 +1,86 @@
+site_name: DeepMath
+
+nav:
+  - Home: index.md
+
+markdown_extensions:
+  - nl2br
+  - attr_list
+  - def_list
+  - footnotes
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji 
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences:
+      custom_fences:
+        - name: math
+          class: language-math
+          format: !!python/name:pymdownx.superfences.fence_code_format
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+extra_javascript:
+  - assets/js/callouts-collapse.js
+  - assets/js/mathjax-config.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - assets/js/mathjax-preprocess.js
+
+plugins:
+  - tags:
+      tags_hierarchy: true
+      tags_file: tags.md
+  - search:
+      lang: ja
+  - css-build:
+      enabled: false
+      command: ["npm", "run", "build:css"]
+  - callouts:
+      enabled: true
+      number_within: section
+  - latex-svg:
+      enabled: true
+      gen_dir: _gen_latex_svg
+      strict_cmd: false
+      latexmk_args: ["-pdf", "-interaction=nonstopmode", "-halt-on-error", "-silent"]
+      pdf2svg_args: []
+
+extra_css:
+  - assets/css/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/solid/paper-plane
+      link: https://docs.google.com/forms/d/e/1FAIpQLSdB0lfwmgO5wFXWQEr_J1C6hlfV1aNTAC5ObHVZwRiFMEE9eA/viewform?usp=header
+      name: お問い合わせフォーム
+
+theme:
+  name: material
+  lang: ja
+  # logo: assets/logo.png
+  # favicon: assets/favicon.ico
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      primary: blue
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      primary: blue grey
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - content.action.view
+    - content.action.edit
+    - content.code.copy
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - toc.integrate

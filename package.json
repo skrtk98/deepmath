@@ -1,0 +1,11 @@
+{
+  "name": "deepmath",
+  "private": true,
+  "scripts": {
+    "build:css": "sass docs/assets/scss/extra.scss docs/assets/css/extra.css --style=expanded",
+    "watch:css": "sass --watch docs/assets/scss/extra.scss:docs/assets/css/extra.css --style=expanded"
+  },
+  "devDependencies": {
+    "sass": "^1.93.0"
+  }
+}
