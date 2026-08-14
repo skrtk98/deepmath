@@ -20,6 +20,12 @@
 | `drafts/subcategory/index.md` | `docs/wiki/subcategory.md` | 部分圏の対象・Hom・合成の条件、有限集合・可換群の例、包含函手 | 照合済み |
 | `drafts/full_subcategory/index.md` | `docs/wiki/full_subcategory.md` | 充満性、可換群・コンパクト Hausdorff 空間の例、充満函手との関係 | 照合済み |
 | `drafts/opposite_category/index.md` | `docs/wiki/opposite_category.md` | 反対圏の定義、前順序の例、二重反対、双対原理 | 照合済み |
+| `drafts/monomorphism/index.md` | `docs/wiki/monomorphism.md` | 左消去則、集合・群の例、分裂モノ射、等化子、エピ射との双対性 | 照合済み |
+| `drafts/epimorphism/index.md` | `docs/wiki/epimorphism.md` | 右消去則、集合・群の例、分裂エピ射、余等化子、モノ射との双対性 | 照合済み |
+| `drafts/retraction/index.md` | `docs/wiki/retraction.md` | レトラクション、断面、分裂射、直積の例、同型射との区別、TikZ 図式 | 照合済み |
+| `drafts/initial_object/index.md` | `docs/wiki/initial_object.md` | 始対象、空集合・整数環・最小元の例、同型を除く一意性、空図式の余極限 | 照合済み |
+| `drafts/terminal_object/index.md` | `docs/wiki/terminal_object.md` | 終対象、一点集合・一点空間・最大元の例、同型を除く一意性、空図式の極限 | 照合済み |
+| `drafts/zero_object/index.md` | `docs/wiki/zero_object.md` | 零対象、可換群・ベクトル空間の例、零射、核と余核への接続 | 照合済み |
 
 ## 運用規則
 
