@@ -106,6 +106,9 @@
 | `drafts/product_topological_space/index.md` | `docs/wiki/product_topological_space.md` | 積位相、部分基と基本開集合、射影の普遍性、近傍基、射影の開性、閉包、積写像 | 照合済み |
 | `drafts/metric_topology/index.md` | `docs/wiki/metric_space.md` | 開球による近傍基と距離位相、位相的同値、可分性・第2可算性・Lindelöf 性、コンパクト性の同値 | 照合済み |
 | `drafts/metrizable_topological_space/index.md` | `docs/wiki/metrizable_topological_space.md` | 距離化可能性、同相不変性、必要条件、正則第2可算空間に対する距離化定理 | 照合済み |
+| `drafts/operator_norm/index.md` | `docs/wiki/operator_norm.md` | 作用素ノルム、最小の有界定数、基本評価、劣乗法性、作用素空間の完備性 | 照合済み |
+| `drafts/compact_operator/index.md` | `docs/wiki/compact_operator.md` | コンパクト作用素、任意の有界集合による特徴付け、有限階作用素、ノルム閉性、スペクトル定理との接続 | 照合済み |
+| `drafts/self_adjoint_operator/index.md` | `docs/wiki/self_adjoint_operator.md` | 稠密定義自己共役作用素、有界の場合の内積による特徴付け、実スペクトル、スペクトル定理 | 照合済み |
 
 ## 解析学と関数解析
 
