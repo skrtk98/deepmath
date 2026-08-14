@@ -45,7 +45,9 @@ A \arrow[r, "i"] \arrow[dr, "1_A"'] & B \arrow[d, "r"] \\
 このとき第一射影 $`\pi_1\colon X\times Y\to X`$ は
 
 ```math
-i\colon X\longrightarrow X\times Y,qquad x\longmapsto (x,y_0)
+i\colon X\longrightarrow X\times Y,
+\qquad
+x\longmapsto (x,y_0)
 ```
 
 を断面にもつのでレトラクションである。
