@@ -114,6 +114,8 @@
 | `drafts/self_adjoint_operator/index.md` | `docs/wiki/self_adjoint_operator.md` | 稠密定義自己共役作用素、有界の場合の内積による特徴付け、実スペクトル、スペクトル定理 | 照合済み |
 | `drafts/extension_field/index.md` | `docs/wiki/field_extension.md` | 拡大体・中間体・拡大次数・有限次拡大、塔の法則と基底による説明 | 照合済み |
 | `drafts/dedekind_domain/index.md` | `docs/wiki/dedekind_domain.md` | Dedekind 整域、非零イデアルの一意分解、分数イデアル、類群、主イデアル整域と代数体整数環の例 | 照合済み |
+| `drafts/affine_connection/index.md` | `docs/wiki/affine_connection.md` | アフィン接続、$`C^\infty(M)`$-線形性と Leibniz 則、Christoffel 記号、捩率、曲率、Levi–Civita 接続 | 照合済み |
+| `drafts/geodesic/index.md` | `docs/wiki/geodesic.md` | 測地線方程式、局所座標表示、初期値問題、測地的完備性、Hopf–Rinow 定理の適用範囲 | 照合済み |
 
 ## 解析学と関数解析
 
