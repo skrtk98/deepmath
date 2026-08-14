@@ -41,4 +41,4 @@ T^2 \arrow[r, "\mu"'] & T
 単位は随伴の単位であり、乗法は余単位を用いて $`G\varepsilon F\colon GFGF\Rightarrow GF`$ と定まる。
 
 モナドは、自己函手の圏 $`\operatorname{End}(\mathcal{C})`$ におけるモノイド対象と同じデータである。
-Kleisli 圏と Eilenberg–Moore 圏は、モナドから得られる二つの標準的な圏である。
+[Kleisli 圏](./kleisli_category.md) と [Eilenberg–Moore 圏](./eilenberg_moore_category.md) は、モナドから得られる二つの標準的な圏である。

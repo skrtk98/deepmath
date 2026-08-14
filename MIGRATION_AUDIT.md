@@ -40,6 +40,8 @@
 | `drafts/cone/index.md` | `docs/wiki/cone.md` | 錐と余錐、自然変換による定式化、錐集合、極限・余極限との関係 | 照合済み |
 | `drafts/filtered_category/index.md` | `docs/wiki/filtered_category.md` | フィルター付き圏、余フィルター付き圏、有向系、有限極限との可換性 | 照合済み |
 | `drafts/monad/index.md` | `docs/wiki/monad.md` | 自己函手、単位と乗法、結合律と単位律、TikZ 図式、随伴、モノイド対象 | 照合済み |
+| `drafts/kleisli_category/index.md` | `docs/wiki/kleisli_category.md` | Hom、合成、恒等射、Kleisli 随伴、Eilenberg–Moore 圏との比較 | 照合済み |
+| `drafts/eilenberg_moore_category/index.md` | `docs/wiki/eilenberg_moore_category.md` | モナド代数、準同型、自由・忘却随伴、Kleisli 圏との比較 | 照合済み |
 
 ## 体論
 
