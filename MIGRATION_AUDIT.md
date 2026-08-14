@@ -109,6 +109,9 @@
 | `drafts/section/index.md` | `docs/wiki/retraction.md` | 断面、分裂モノ射、直積射影の断面、レトラクションとの関係 | 照合済み |
 | `drafts/compact-open_topology/index.md` | `docs/wiki/compact_open_topology.md` | コンパクト開位相、部分基、正しい型の Curry 化と逆 Curry 化、評価写像の連続性に必要な局所コンパクト性条件 | 照合済み |
 | `drafts/net/index.md` | `docs/wiki/net.md` | 有向集合、ネット、部分ネット、最終的・しばしば含まれること、普遍ネット、収束、集積点、閉包の特徴付け | 照合済み |
+| `drafts/weak_topology/index.md` | `docs/wiki/weak_topology.md` | 始位相、部分基、連続写像による普遍性、積位相、関数解析の弱位相との区別 | 照合済み |
+| `drafts/strong_topology/index.md` | `docs/wiki/strong_topology.md` | 終位相、開集合による特徴付け、連続写像による普遍性、商位相、関数解析の強位相との区別 | 照合済み |
+| `drafts/nowhere_dense_subset/index.md` | `docs/wiki/nowhere_dense_subset.md` | どこにも稠密でない集合、閉包の内部による定義、非空開集合による同値条件 | 照合済み |
 | `drafts/homotopy/index.md` | `docs/wiki/homotopy.md` | ホモトピー、ホモトピー同値、凸集合の変形収縮、基本群・ホモロジーのホモトピー不変性 | 照合済み |
 | `drafts/fundamental_group/index.md` | `docs/wiki/fundamental_group.md` | 基本群、端点固定ホモトピー、連結積、球面・トーラスの例、被覆空間との関係 | 照合済み |
 | `drafts/homology/index.md` | `docs/wiki/homology.md` | 鎖複体のホモロジー、サイクル・バウンダリー、特異ホモロジー、ホモトピー不変性 | 照合済み |
