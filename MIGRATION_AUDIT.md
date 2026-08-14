@@ -121,6 +121,9 @@
 | `drafts/pseudofunctor/index.md` | `docs/wiki/pseudofunctor.md` | 擬函手、Hom 圏上の函手、合成・単位比較2-射、コヒーレンス、厳密2-函手 | 照合済み |
 | `drafts/categorification/index.md` | `docs/wiki/categorification.md` | 圏化・脱圏化、集合・関数・等式との対応、有限集合の例、コヒーレンス、高次圏との関係 | 照合済み |
 | `drafts/higher_category_theory/index.md` | `docs/wiki/higher_category_theory.md` | 高次圏、準圏・Segal 圏・opetopic/globular モデル、Quillen 同値、2圏・双圏、主要トピック | 照合済み |
+| `drafts/traced_monoidal_category/index.md` | `docs/wiki/traced_monoidal_category.md` | 右・左トレース、tightening・sliding・vanishing・strength、公理、有限次元ベクトル空間の例 | 照合済み |
+| `drafts/segal_category/index.md` | `docs/wiki/segal_category.md` | Segal 条件、Segal 圏・Segal 空間、通常圏の nerve、ループ空間との接続 | 照合済み |
+| `drafts/opetopic_higher_category/index.md` | `docs/wiki/opetopic_higher_category.md` | オペトープ、合成形状、opetopic 高次圏、充填条件によるコヒーレンス | 照合済み |
 | `drafts/measurable_function/index.md` | `docs/wiki/measurable_function.md` | 可測関数、Borel 可測性、連続関数と指示関数の例、点ごとの極限、単関数近似 | 照合済み |
 | `drafts/orthonormal_basis/index.md` | `docs/wiki/orthonormal_basis.md` | 正規直交系・基底、ノルム収束による展開、非可算添字の和、Parseval 等式 | 照合済み |
 | `drafts/riesz_representation_theorem/index.md` | `docs/wiki/riesz_representation_theorem.md` | Riesz 表現定理、内積の線形変数、等長共役線形同型、実 Hilbert 空間の場合 | 照合済み |
