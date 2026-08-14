@@ -14,6 +14,15 @@ tags:
 以下で $`\mathcal{V}`$ を対称モノイダル閉圏、$`A`$ を小さい $`\mathcal{V}`$-圏とする。
 豊穣前層圏 $`\widehat{A}=[A^{\mathrm{op}},\mathcal{V}]`$ が存在し、小さい重み付き余極限をもつと仮定する。
 
+前層 $`X`$ と $`v\in\mathcal{V}`$ に対し、点ごとのテンソル
+
+```math
+(v\odot X)(a)=v\otimes X(a)
+```
+
+により $`\widehat{A}`$ は左 $`\mathcal{V}`$-加群圏となる。
+この作用は、重み付き余極限と米田拡張のテンソルを定める。
+
 ## 普遍性
 
 > [!theorem] 豊穣自由余完備化
