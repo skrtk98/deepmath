@@ -39,6 +39,7 @@
 | `drafts/comma_category/index.md` | `docs/wiki/comma_category.md` | 三つ組と可換条件による定義、スライス圏とコスライス圏の例、射影函手 | 照合済み |
 | `drafts/cone/index.md` | `docs/wiki/cone.md` | 錐と余錐、自然変換による定式化、錐集合、極限・余極限との関係 | 照合済み |
 | `drafts/filtered_category/index.md` | `docs/wiki/filtered_category.md` | フィルター付き圏、余フィルター付き圏、有向系、有限極限との可換性 | 照合済み |
+| `drafts/monad/index.md` | `docs/wiki/monad.md` | 自己函手、単位と乗法、結合律と単位律、TikZ 図式、随伴、モノイド対象 | 照合済み |
 
 ## 体論
 
