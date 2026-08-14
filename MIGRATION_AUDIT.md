@@ -64,6 +64,8 @@
 | `drafts/chain_complex/index.md` | `docs/wiki/chain_complex.md` | 鎖複体、ホモロジー、単体複体と射影解消の例、完全複体 | 照合済み |
 | `drafts/derived_functor/index.md` | `docs/wiki/derived_functor.md` | 左右導来関手、入射・射影解消、選択からの独立性、長完全系列 | 照合済み |
 | `drafts/ext_and_tor/index.md` | `docs/wiki/ext_and_tor.md` | Ext と Tor の定義、短完全系列の分類、平坦性、整数加群の例 | 照合済み |
+| `drafts/flat_module/index.md` | `docs/wiki/flat_module.md` | 平坦性、テンソル積、Tor による特徴付け、自由・射影・局所化の例 | 照合済み |
+| `drafts/injective_module/index.md` | `docs/wiki/injective_module.md` | 延長性、Hom の完全性、入射解消、導来関手、可除アーベル群の例 | 照合済み |
 
 ## 位相の基礎
 
