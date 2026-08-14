@@ -35,6 +35,28 @@ tags:
 
 結合律は、$`\mathcal{C}(Z,W)\otimes\mathcal{C}(Y,Z)\otimes\mathcal{C}(X,Y)`$ から $`\mathcal{C}(X,W)`$ への二つの合成射が、結合子を除いて一致することを要請する。
 
+具体的には、次の図式が可換である。
+
+```latex {cmd=true latex_zoom=180% hide=true}
+\documentclass{standalone}
+\usepackage{amsmath,mathtools}
+\usepackage{tikz}
+\begin{document}
+\begin{tikzpicture}[xscale=2.3,yscale=1.5]
+  \node (a) at (0,1) {$((\mathcal{C}(Z,W)\otimes\mathcal{C}(Y,Z))\otimes\mathcal{C}(X,Y))$};
+  \node (b) at (2.6,1) {$\mathcal{C}(Z,W)\otimes(\mathcal{C}(Y,Z)\otimes\mathcal{C}(X,Y))$};
+  \node (c) at (0,0) {$\mathcal{C}(Y,W)\otimes\mathcal{C}(X,Y)$};
+  \node (d) at (2.6,0) {$\mathcal{C}(Z,W)\otimes\mathcal{C}(X,Z)$};
+  \node (e) at (1.3,-1) {$\mathcal{C}(X,W)$};
+  \draw[->] (a) -- node[above,scale=.7] {$\alpha$} (b);
+  \draw[->] (a) -- node[left,scale=.7] {$\circ\otimes1$} (c);
+  \draw[->] (b) -- node[right,scale=.7] {$1\otimes\circ$} (d);
+  \draw[->] (c) -- node[left,scale=.7] {$\circ$} (e);
+  \draw[->] (d) -- node[right,scale=.7] {$\circ$} (e);
+\end{tikzpicture}
+\end{document}
+```
+
 単位律は、$`I`$ から得られる単位射を左右から合成しても、Hom 対象の恒等射が得られることを要請する。
 
 ## 豊穣函手

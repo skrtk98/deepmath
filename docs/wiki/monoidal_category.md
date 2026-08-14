@@ -27,7 +27,43 @@ tags:
 
 五角形公理は、四対象のテンソル積に異なる順序で結合子を適用しても同じ射が得られることを要請する。
 
+```latex {cmd=true latex_zoom=180% hide=true}
+\documentclass{standalone}
+\usepackage{amsmath,mathtools}
+\usepackage{tikz}
+\begin{document}
+\begin{tikzpicture}[xscale=2.1,yscale=1.6]
+  \node (a) at (0,1) {$((W\otimes X)\otimes Y)\otimes Z$};
+  \node (b) at (1.7,1) {$(W\otimes(X\otimes Y))\otimes Z$};
+  \node (c) at (3.4,1) {$W\otimes((X\otimes Y)\otimes Z)$};
+  \node (d) at (0.85,0) {$(W\otimes X)\otimes(Y\otimes Z)$};
+  \node (e) at (2.55,0) {$W\otimes(X\otimes(Y\otimes Z))$};
+  \draw[->] (a) -- node[above,scale=.7] {$\alpha_{W,X,Y}\otimes1$} (b);
+  \draw[->] (b) -- node[above,scale=.7] {$\alpha_{W,X\otimes Y,Z}$} (c);
+  \draw[->] (a) -- node[left,scale=.7] {$\alpha_{W\otimes X,Y,Z}$} (d);
+  \draw[->] (d) -- node[below,scale=.7] {$\alpha_{W,X,Y\otimes Z}$} (e);
+  \draw[->] (c) -- node[right,scale=.7] {$1\otimes\alpha_{X,Y,Z}$} (e);
+\end{tikzpicture}
+\end{document}
+```
+
 三角形公理は、結合子と二つの単位子が両立することを要請する。
+
+```latex {cmd=true latex_zoom=180% hide=true}
+\documentclass{standalone}
+\usepackage{amsmath,mathtools}
+\usepackage{tikz}
+\begin{document}
+\begin{tikzpicture}[xscale=2.2,yscale=1.5]
+  \node (a) at (0,1) {$(X\otimes I)\otimes Y$};
+  \node (b) at (2,1) {$X\otimes(I\otimes Y)$};
+  \node (c) at (1,0) {$X\otimes Y$};
+  \draw[->] (a) -- node[above,scale=.8] {$\alpha_{X,I,Y}$} (b);
+  \draw[->] (a) -- node[left,scale=.8] {$\rho_X\otimes1_Y$} (c);
+  \draw[->] (b) -- node[right,scale=.8] {$1_X\otimes\lambda_Y$} (c);
+\end{tikzpicture}
+\end{document}
+```
 
 これらの公理により、有限個の対象のテンソル積について、括弧の付け方を結合子で整合的に比較できる。
 
