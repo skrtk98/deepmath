@@ -44,6 +44,15 @@
 | --- | --- | --- | --- |
 | `drafts/algebraic_element/index.md` | `docs/wiki/algebraic_element.md` | 代数的元と超越的元、最小多項式、既約性と可除性、共役元、具体例 | 照合済み |
 
+## ホモロジー代数
+
+| 草稿 | 移行先 | 確認事項 | 状態 |
+| --- | --- | --- | --- |
+| `drafts/exact_sequence/index.md` | `docs/wiki/exact_sequence.md` | 完全性、短完全系列、商加群の列、函手による完全性、分裂条件 | 照合済み |
+| `drafts/chain_complex/index.md` | `docs/wiki/chain_complex.md` | 鎖複体、ホモロジー、単体複体と射影解消の例、完全複体 | 照合済み |
+| `drafts/derived_functor/index.md` | `docs/wiki/derived_functor.md` | 左右導来関手、入射・射影解消、選択からの独立性、長完全系列 | 照合済み |
+| `drafts/ext_and_tor/index.md` | `docs/wiki/ext_and_tor.md` | Ext と Tor の定義、短完全系列の分類、平坦性、整数加群の例 | 照合済み |
+
 ## 運用規則
 
 各分野の移行前に、草稿の見出し、定義、仮定、例、命題、証明、可換図式、参考文献、内部リンクを一覧化する。
