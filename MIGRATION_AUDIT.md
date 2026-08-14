@@ -117,6 +117,7 @@
 | `drafts/final_functor/index.md` | `docs/wiki/final_functor.md` | 終函手・始函手、コンマ圏による判定、余極限・極限の添字圏の置換 | 照合済み |
 | `drafts/pseudofunctor/index.md` | `docs/wiki/pseudofunctor.md` | 擬函手、Hom 圏上の函手、合成・単位比較2-射、コヒーレンス、厳密2-函手 | 照合済み |
 | `drafts/categorification/index.md` | `docs/wiki/categorification.md` | 圏化・脱圏化、集合・関数・等式との対応、有限集合の例、コヒーレンス、高次圏との関係 | 照合済み |
+| `drafts/higher_category_theory/index.md` | `docs/wiki/higher_category_theory.md` | 高次圏、準圏・Segal 圏・opetopic/globular モデル、Quillen 同値、2圏・双圏、主要トピック | 照合済み |
 | `drafts/measurable_function/index.md` | `docs/wiki/measurable_function.md` | 可測関数、Borel 可測性、連続関数と指示関数の例、点ごとの極限、単関数近似 | 照合済み |
 | `drafts/orthonormal_basis/index.md` | `docs/wiki/orthonormal_basis.md` | 正規直交系・基底、ノルム収束による展開、非可算添字の和、Parseval 等式 | 照合済み |
 | `drafts/riesz_representation_theorem/index.md` | `docs/wiki/riesz_representation_theorem.md` | Riesz 表現定理、内積の線形変数、等長共役線形同型、実 Hilbert 空間の場合 | 照合済み |
