@@ -77,6 +77,9 @@
 | `drafts/interior_point/index.md` | `docs/wiki/interior_point.md` | 内点、内部、最大開集合、近傍系と内部作用素 | 照合済み |
 | `drafts/exterior_point/index.md` | `docs/wiki/exterior_point.md` | 外点、補集合の内部、近傍による特徴付け | 照合済み |
 | `drafts/boundary_point/index.md` | `docs/wiki/boundary_point.md` | 境界点、境界、閉包による表示、内部との分解 | 照合済み |
+| `drafts/cluster_point/index.md` | `docs/wiki/cluster_point.md` | 触点、近傍による定義、閉包との一致 | 照合済み |
+| `drafts/accumulation_point/index.md` | `docs/wiki/accumulation_point.md` | 集積点、極限点、導集合、触点による定義 | 照合済み |
+| `drafts/isolated_point/index.md` | `docs/wiki/isolated_point.md` | 孤立点、集積点の否定、近傍による特徴付け | 照合済み |
 
 ## 解析学と関数解析
 
