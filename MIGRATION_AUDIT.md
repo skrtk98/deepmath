@@ -61,6 +61,14 @@
 | `drafts/topological_basis/index.md` | `docs/wiki/topological_basis.md` | 開基の条件、生成する位相、可算開基、開基の比較、有限共通部分による生成 | 照合済み |
 | `drafts/closure_operator/index.md` | `docs/wiki/closure_operator.md` | 閉包作用素の公理、触点による特徴付け、閉包作用素と位相の相互復元 | 照合済み |
 
+## 解析学と関数解析
+
+| 草稿 | 移行先 | 確認事項 | 状態 |
+| --- | --- | --- | --- |
+| `drafts/metric_space/index.md` | `docs/wiki/metric_space.md` | 距離の公理、離散距離、誘導位相、擬距離、距離等化、測度による例 | 照合済み |
+| `drafts/normed_space/index.md` | `docs/wiki/normed_space.md` | ノルムの公理、誘導距離、有限次元の例 | 照合済み |
+| `drafts/banach_space/index.md` | `docs/wiki/banach_space.md` | 完備性、Cauchy 列、有限次元、$`\ell^p`$、$`L^p`$、$`C(K)`$ の例 | 照合済み |
+
 ## 運用規則
 
 各分野の移行前に、草稿の見出し、定義、仮定、例、命題、証明、可換図式、参考文献、内部リンクを一覧化する。
