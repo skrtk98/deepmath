@@ -129,6 +129,7 @@
 | `drafts/enriched_yoneda_lemma/index.md` | `docs/wiki/enriched_yoneda_lemma.md` | 豊穣米田埋め込み、Hom 対象による補題、テンソル表示、余米田型の表現可能前層表示 | 照合済み |
 | `drafts/enriched_cauchy_completion/index.md` | `docs/wiki/enriched_cauchy_completion.md` | 絶対重み、小射影前層、Cauchy 完成、普遍性、$`\mathsf{Set}`$ における冪等分解完成 | 照合済み |
 | `drafts/enriched_small_projective_morita/index.md` | `docs/wiki/enriched_small_projective_morita.md` | 小射影前層、豊穣前層圏による Morita 同値、Cauchy 完成による判定、$`\mathsf{Set}`$ の場合 | 照合済み |
+| `drafts/enriched_density/index.md` | `docs/wiki/enriched_density.md` | 標準重み付き余極限、制限米田函手、充満忠実性による判定、Kan 拡張、米田埋め込みの稠密性 | 照合済み |
 | `drafts/measurable_function/index.md` | `docs/wiki/measurable_function.md` | 可測関数、Borel 可測性、連続関数と指示関数の例、点ごとの極限、単関数近似 | 照合済み |
 | `drafts/orthonormal_basis/index.md` | `docs/wiki/orthonormal_basis.md` | 正規直交系・基底、ノルム収束による展開、非可算添字の和、Parseval 等式 | 照合済み |
 | `drafts/riesz_representation_theorem/index.md` | `docs/wiki/riesz_representation_theorem.md` | Riesz 表現定理、内積の線形変数、等長共役線形同型、実 Hilbert 空間の場合 | 照合済み |
