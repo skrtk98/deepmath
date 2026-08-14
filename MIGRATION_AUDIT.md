@@ -38,6 +38,12 @@
 | `drafts/category_equivalence/index.md` | `docs/wiki/category_equivalence.md` | 擬逆と自然同型、充満忠実かつ本質的全射による判定、骨格圏の例、圏同型との区別 | 照合済み |
 | `drafts/comma_category/index.md` | `docs/wiki/comma_category.md` | 三つ組と可換条件による定義、スライス圏とコスライス圏の例、射影函手 | 照合済み |
 
+## 体論
+
+| 草稿 | 移行先 | 確認事項 | 状態 |
+| --- | --- | --- | --- |
+| `drafts/algebraic_element/index.md` | `docs/wiki/algebraic_element.md` | 代数的元と超越的元、最小多項式、既約性と可除性、共役元、具体例 | 照合済み |
+
 ## 運用規則
 
 各分野の移行前に、草稿の見出し、定義、仮定、例、命題、証明、可換図式、参考文献、内部リンクを一覧化する。
