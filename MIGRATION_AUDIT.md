@@ -97,6 +97,10 @@
 | `drafts/cluster_point/index.md` | `docs/wiki/cluster_point.md` | 触点、近傍による定義、閉包との一致 | 照合済み |
 | `drafts/accumulation_point/index.md` | `docs/wiki/accumulation_point.md` | 集積点、極限点、導集合、触点による定義 | 照合済み |
 | `drafts/isolated_point/index.md` | `docs/wiki/isolated_point.md` | 孤立点、集積点の否定、近傍による特徴付け | 照合済み |
+| `drafts/closed_map/index.md` | `docs/wiki/closed_map.md` | 閉写像、合成、ファイバーによる判定、コンパクトから Hausdorff への連続写像との関係 | 照合済み |
+| `drafts/open_map/index.md` | `docs/wiki/open_map.md` | 開写像、合成、閉包と逆像による判定 | 照合済み |
+| `drafts/homeomorphism/index.md` | `docs/wiki/homeomorphism.md` | 同相写像、開・閉写像による判定、コンパクトから Hausdorff への連続全単射 | 照合済み |
+| `drafts/topological_embedding/index.md` | `docs/wiki/topological_embedding.md` | 位相的埋め込み、像への制限、全単射の場合、相互埋め込みから同相性は従わない点の訂正 | 照合済み |
 
 ## 解析学と関数解析
 
