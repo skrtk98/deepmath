@@ -90,4 +90,5 @@ d\circ f=f=f\circ e
 
 を満たすものとする。
 
+小射影前層と Morita 同値の関係は [豊穣小射影と Morita 同値](./enriched_small_projective_morita.md) を参照されたい。
 豊穣前層の表現可能前層による表示は [豊穣米田の補題](./enriched_yoneda_lemma.md) を、重み付き余極限の定義は [重み付き余極限](./weighted_colimit_enriched.md) を参照されたい。
