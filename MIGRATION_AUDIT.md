@@ -47,6 +47,8 @@
 | `drafts/closed_monoidal_category/index.md` | `docs/wiki/closed_monoidal_category.md` | 左右閉性、内部 Hom、評価・余評価、集合の例 | 照合済み |
 | `drafts/braided_monoidal_category/index.md` | `docs/wiki/braided_monoidal_category.md` | 組紐、六角形公理、TikZ 図式、ベクトル空間の例 | 照合済み |
 | `drafts/symmetric_monoidal_category/index.md` | `docs/wiki/symmetric_monoidal_category.md` | 対称性、集合・可換群・ベクトル空間の例、カルテシアン圏 | 照合済み |
+| `drafts/enriched_functor/index.md` | `docs/wiki/enriched_functor.md` | Hom 対象の構造射、単位・合成の保存、集合・アーベル群の例、下部圏 | 照合済み |
+| `drafts/enriched_natural_transformation/index.md` | `docs/wiki/enriched_natural_transformation.md` | 成分、豊穣自然性、合成、$`\mathcal{V}\text{-}\mathsf{Cat}`$、集合の場合 | 照合済み |
 
 ## 体論
 
