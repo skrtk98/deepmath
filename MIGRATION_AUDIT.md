@@ -50,6 +50,8 @@
 | `drafts/pointwise_kan_extension/index.md` | `docs/wiki/pointwise_kan_extension.md` | 豊穣左・右各点公式、重みの向き、通常の圏におけるコンマ圏公式、コエンド・エンドとの接続 | 照合済み |
 | `drafts/end_and_coend/index.md` | `docs/wiki/end_and_coend.md` | 楔・余楔、エンド・コエンドの普遍性、自然変換のエンド表示、余米田型コエンド、集合値コエンドの余等化子表示 | 照合済み |
 | `drafts/dual_object/index.md` | `docs/wiki/dual_object.md` | 右双対の評価・余評価、三角恒等式と TikZ 図式、左双対、双対の一意性、有限次元ベクトル空間の例、剛モノイダル圏 | 照合済み |
+| `drafts/monoid_object/index.md` | `docs/wiki/monoid_object.md` | モノイド対象、結合律 TikZ 図式、単位律、余モノイド対象、モノイド射、集合・位相・加群・自己函手圏の例 | 照合済み |
+| `drafts/monoid_module_object/index.md` | `docs/wiki/monoid_module_object.md` | 左右加群対象、結合律 TikZ 図式、単位律、逆転モノイダル圏、作用するモノイダル圏上の加群対象 | 照合済み |
 | `drafts/product_category/index.md` | `docs/wiki/product_category.md` | 直積圏の対象・射・成分ごとの合成、射影函手、$`\mathsf{Cat}`$ における積の普遍性 | 照合済み |
 | `drafts/coproduct_category/index.md` | `docs/wiki/coproduct_category.md` | 余積圏（直和圏）の対象・射、標準包含函手、$`\mathsf{Cat}`$ における余積の普遍性 | 照合済み |
 | `drafts/monoidal_functor/index.md` | `docs/wiki/monoidal_functor.md` | ラックス構造、結合子とのコヒーレンス TikZ 図式、正規・強・厳格モノイダル函手 | 照合済み |
