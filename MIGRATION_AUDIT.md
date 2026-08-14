@@ -195,7 +195,7 @@
 | `drafts/connected_space/index.md` | `docs/wiki/connected_space.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
 | `drafts/continuous_map/index.md` | `docs/wiki/continuous_map.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
 | `drafts/enriched_category/index.md` | `docs/wiki/enriched_category.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
-| `drafts/enriched_module_functor/index.md` | `docs/wiki/enriched_module_functor.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/enriched_module_functor/index.md` | `docs/wiki/module_over_a_monoidal_category.md` | 豊穣加群値函手、テンソル表示された Hom 作用、単位・合成、自然変換、豊穣自然変換との対応 | 照合済み |
 | `drafts/euclidean_domain/index.md` | `docs/wiki/euclidean_domain.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
 | `drafts/field/index.md` | `docs/wiki/field.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
 | `drafts/field_extension/index.md` | `docs/wiki/field_extension.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
