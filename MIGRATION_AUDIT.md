@@ -182,6 +182,62 @@
 
 ## 運用規則
 
+## 既存同名ページの対応確認
+
+| 草稿 | 移行先 | 確認事項 | 状態 |
+| --- | --- | --- |
+| `drafts/algebraic_extension/index.md` | `docs/wiki/algebraic_extension.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/algebraically_closed_field/index.md` | `docs/wiki/algebraically_closed_field.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/bicategory/index.md` | `docs/wiki/bicategory.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/bilinear_map/index.md` | `docs/wiki/bilinear_map.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/bounded_operator/index.md` | `docs/wiki/bounded_operator.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/compact_space/index.md` | `docs/wiki/compact_space.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/connected_space/index.md` | `docs/wiki/connected_space.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/continuous_map/index.md` | `docs/wiki/continuous_map.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/enriched_category/index.md` | `docs/wiki/enriched_category.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/enriched_module_functor/index.md` | `docs/wiki/enriched_module_functor.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/euclidean_domain/index.md` | `docs/wiki/euclidean_domain.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/field/index.md` | `docs/wiki/field.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/field_extension/index.md` | `docs/wiki/field_extension.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/free_module/index.md` | `docs/wiki/free_module.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/function/index.md` | `docs/wiki/function.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/group_action/index.md` | `docs/wiki/group_action.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/group_homomorphism/index.md` | `docs/wiki/group_homomorphism.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/group_representation/index.md` | `docs/wiki/group_representation.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/hilbert_space/index.md` | `docs/wiki/hilbert_space.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/ideal_in_rings/index.md` | `docs/wiki/ideal_in_rings.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/image/index.md` | `docs/wiki/image.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/integral_domain/index.md` | `docs/wiki/integral_domain.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/inverse_morphism/index.md` | `docs/wiki/inverse_morphism.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/isomorphism/index.md` | `docs/wiki/isomorphism.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/linear_map/index.md` | `docs/wiki/linear_map.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/local_ring/index.md` | `docs/wiki/local_ring.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/localization_of_ring/index.md` | `docs/wiki/localization_of_ring.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/measure_space/index.md` | `docs/wiki/measure_space.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/module_over_a_ring/index.md` | `docs/wiki/module_over_a_ring.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/monoid_action/index.md` | `docs/wiki/monoid_action.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/monoid_homomorphism/index.md` | `docs/wiki/monoid_homomorphism.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/monoidal_category/index.md` | `docs/wiki/monoidal_category.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/natural_isomorphism/index.md` | `docs/wiki/natural_isomorphism.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/noetherian_ring/index.md` | `docs/wiki/noetherian_ring.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/opposite_monoid/index.md` | `docs/wiki/opposite_monoid.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/principal_ideal_domain/index.md` | `docs/wiki/principal_ideal_domain.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/projective_module/index.md` | `docs/wiki/projective_module.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/quasi_category/index.md` | `docs/wiki/quasi_category.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/riemann_curvature_tensor/index.md` | `docs/wiki/riemann_curvature_tensor.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/riemannian_metric/index.md` | `docs/wiki/riemannian_metric.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/ring/index.md` | `docs/wiki/ring.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/ring_homomorphism/index.md` | `docs/wiki/ring_homomorphism.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/spectral_theorem/index.md` | `docs/wiki/spectral_theorem.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/subfield/index.md` | `docs/wiki/subfield.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/submonoid/index.md` | `docs/wiki/submonoid.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/subring/index.md` | `docs/wiki/subring.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/tensor_product_of_modules/index.md` | `docs/wiki/tensor_product_of_modules.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/topological_space/index.md` | `docs/wiki/topological_space.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/topological_subspace/index.md` | `docs/wiki/topological_subspace.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/unique_factorization_domain/index.md` | `docs/wiki/unique_factorization_domain.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+| `drafts/vector_bundle/index.md` | `docs/wiki/vector_bundle.md` | 同名 Wiki 記事への既存移行を確認。定義、例、性質、タグ、内部リンクは最終監査の対象とする。 | 照合済み |
+
 各分野の移行前に、草稿の見出し、定義、仮定、例、命題、証明、可換図式、参考文献、内部リンクを一覧化する。
 移行先では草稿の内容を削減せず、既存ページとの重複がある場合には情報を統合して参照先を明示する。
 移行後には、記号と用語の一貫性、日本語の学術文体、タグ、内部リンク、MkDocs ビルドを確認する。
