@@ -98,6 +98,8 @@
 | `drafts/accumulation_point/index.md` | `docs/wiki/accumulation_point.md` | 集積点、極限点、導集合、触点による定義 | 照合済み |
 | `drafts/isolated_point/index.md` | `docs/wiki/isolated_point.md` | 孤立点、集積点の否定、近傍による特徴付け | 照合済み |
 | `drafts/closed_map/index.md` | `docs/wiki/closed_map.md` | 閉写像、合成、ファイバーによる判定、コンパクトから Hausdorff への連続写像との関係 | 照合済み |
+| `drafts/neighbourhood_basis/index.md` | `docs/wiki/neighbourhood_basis.md` | 近傍基、生成する近傍系、開基との相互構成、粗細の比較 | 照合済み |
+| `drafts/interior_operator/index.md` | `docs/wiki/interior_operator.md` | 開核作用素の公理、位相空間の内部、開核作用素からの位相の復元、閉包作用素との双対 | 照合済み |
 | `drafts/open_map/index.md` | `docs/wiki/open_map.md` | 開写像、合成、閉包と逆像による判定 | 照合済み |
 | `drafts/homeomorphism/index.md` | `docs/wiki/homeomorphism.md` | 同相写像、開・閉写像による判定、コンパクトから Hausdorff への連続全単射 | 照合済み |
 | `drafts/topological_embedding/index.md` | `docs/wiki/topological_embedding.md` | 位相的埋め込み、像への制限、全単射の場合、相互埋め込みから同相性は従わない点の訂正 | 照合済み |
