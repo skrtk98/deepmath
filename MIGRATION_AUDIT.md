@@ -116,6 +116,8 @@
 | `drafts/dedekind_domain/index.md` | `docs/wiki/dedekind_domain.md` | Dedekind 整域、非零イデアルの一意分解、分数イデアル、類群、主イデアル整域と代数体整数環の例 | 照合済み |
 | `drafts/affine_connection/index.md` | `docs/wiki/affine_connection.md` | アフィン接続、$`C^\infty(M)`$-線形性と Leibniz 則、Christoffel 記号、捩率、曲率、Levi–Civita 接続 | 照合済み |
 | `drafts/geodesic/index.md` | `docs/wiki/geodesic.md` | 測地線方程式、局所座標表示、初期値問題、測地的完備性、Hopf–Rinow 定理の適用範囲 | 照合済み |
+| `drafts/complex_manifold/index.md` | `docs/wiki/complex_manifold.md` | 複素多様体、複素アトラスと双正則遷移写像、実次元、複素射影空間と Riemann 面の例 | 照合済み |
+| `drafts/symplectic_manifold/index.md` | `docs/wiki/symplectic_manifold.md` | シンプレクティック多様体、閉性と非退化性、偶数次元、標準形式、余接束の標準形式 | 照合済み |
 
 ## 解析学と関数解析
 
