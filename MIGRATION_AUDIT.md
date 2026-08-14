@@ -72,6 +72,8 @@
 | `drafts/neighbourhood_system/index.md` | `docs/wiki/neighbourhood_system.md` | 近傍、フィルター性、近傍系と位相の相互復元、粗細の比較、連続性 | 照合済み |
 | `drafts/topological_basis/index.md` | `docs/wiki/topological_basis.md` | 開基の条件、生成する位相、可算開基、開基の比較、有限共通部分による生成 | 照合済み |
 | `drafts/closure_operator/index.md` | `docs/wiki/closure_operator.md` | 閉包作用素の公理、触点による特徴付け、閉包作用素と位相の相互復元 | 照合済み |
+| `drafts/hausdorff_space/index.md` | `docs/wiki/hausdorff_space.md` | Hausdorff 条件、極限の一意性、コンパクト部分集合、対角の閉性、距離空間 | 照合済み |
+| `drafts/dense_subset/index.md` | `docs/wiki/dense_subset.md` | 閉包による定義、非空開集合との交わり、有理数の例 | 照合済み |
 
 ## 解析学と関数解析
 
