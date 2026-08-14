@@ -104,6 +104,8 @@
 | `drafts/homeomorphism/index.md` | `docs/wiki/homeomorphism.md` | 同相写像、開・閉写像による判定、コンパクトから Hausdorff への連続全単射 | 照合済み |
 | `drafts/topological_embedding/index.md` | `docs/wiki/topological_embedding.md` | 位相的埋め込み、像への制限、全単射の場合、相互埋め込みから同相性は従わない点の訂正 | 照合済み |
 | `drafts/product_topological_space/index.md` | `docs/wiki/product_topological_space.md` | 積位相、部分基と基本開集合、射影の普遍性、近傍基、射影の開性、閉包、積写像 | 照合済み |
+| `drafts/metric_topology/index.md` | `docs/wiki/metric_space.md` | 開球による近傍基と距離位相、位相的同値、可分性・第2可算性・Lindelöf 性、コンパクト性の同値 | 照合済み |
+| `drafts/metrizable_topological_space/index.md` | `docs/wiki/metrizable_topological_space.md` | 距離化可能性、同相不変性、必要条件、正則第2可算空間に対する距離化定理 | 照合済み |
 
 ## 解析学と関数解析
 
