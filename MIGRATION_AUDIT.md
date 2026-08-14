@@ -74,6 +74,9 @@
 | `drafts/closure_operator/index.md` | `docs/wiki/closure_operator.md` | 閉包作用素の公理、触点による特徴付け、閉包作用素と位相の相互復元 | 照合済み |
 | `drafts/hausdorff_space/index.md` | `docs/wiki/hausdorff_space.md` | Hausdorff 条件、極限の一意性、コンパクト部分集合、対角の閉性、距離空間 | 照合済み |
 | `drafts/dense_subset/index.md` | `docs/wiki/dense_subset.md` | 閉包による定義、非空開集合との交わり、有理数の例 | 照合済み |
+| `drafts/interior_point/index.md` | `docs/wiki/interior_point.md` | 内点、内部、最大開集合、近傍系と内部作用素 | 照合済み |
+| `drafts/exterior_point/index.md` | `docs/wiki/exterior_point.md` | 外点、補集合の内部、近傍による特徴付け | 照合済み |
+| `drafts/boundary_point/index.md` | `docs/wiki/boundary_point.md` | 境界点、境界、閉包による表示、内部との分解 | 照合済み |
 
 ## 解析学と関数解析
 
