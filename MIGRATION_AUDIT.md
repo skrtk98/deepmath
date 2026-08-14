@@ -26,6 +26,11 @@
 | `drafts/initial_object/index.md` | `docs/wiki/initial_object.md` | 始対象、空集合・整数環・最小元の例、同型を除く一意性、空図式の余極限 | 照合済み |
 | `drafts/terminal_object/index.md` | `docs/wiki/terminal_object.md` | 終対象、一点集合・一点空間・最大元の例、同型を除く一意性、空図式の極限 | 照合済み |
 | `drafts/zero_object/index.md` | `docs/wiki/zero_object.md` | 零対象、可換群・ベクトル空間の例、零射、核と余核への接続 | 照合済み |
+| `drafts/limit/index.md` | `docs/wiki/limit.md` | 錐、極限、表現可能性、積・等化子・引き戻し、存在の一意性、右随伴による保存 | 照合済み |
+| `drafts/colimit/index.md` | `docs/wiki/colimit.md` | 余錐、余極限、余積・余等化子・押し出し、存在の一意性、左随伴による保存 | 照合済み |
+| `drafts/product_object/index.md` | `docs/wiki/product_object.md` | 二項積と一般積、普遍図式、集合・位相空間・半順序の例、有限積 | 照合済み |
+| `drafts/equalizer/index.md` | `docs/wiki/equalizer.md` | 等化子の普遍性、TikZ 図式、集合・代数構造の例、モノ射性、一意性 | 照合済み |
+| `drafts/pullback/index.md` | `docs/wiki/pullback.md` | 引き戻しの普遍性、TikZ 図式、集合と半順序の例、積・等化子による構成、押し出しとの双対性 | 照合済み |
 
 ## 運用規則
 
