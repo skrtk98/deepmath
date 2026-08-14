@@ -35,6 +35,7 @@
 | `drafts/cokernel/index.md` | `docs/wiki/cokernel.md` | 零射に関する普遍性、余等化子としての記述、可換群の例、エピ射性、核との双対性 | 照合済み |
 | `drafts/representable_functor/index.md` | `docs/wiki/representable_functor.md` | 共変・反変の表現可能性、集合・群の例、普遍元、表現対象の一意性 | 照合済み |
 | `drafts/yoneda_lemma/index.md` | `docs/wiki/yoneda_lemma.md` | 反変の米田対応、対応式、米田埋め込み、表現対象の一意性 | 照合済み |
+| `drafts/category_equivalence/index.md` | `docs/wiki/category_equivalence.md` | 擬逆と自然同型、充満忠実かつ本質的全射による判定、骨格圏の例、圏同型との区別 | 照合済み |
 
 ## 運用規則
 
