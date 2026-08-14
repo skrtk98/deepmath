@@ -124,6 +124,8 @@
 | `drafts/traced_monoidal_category/index.md` | `docs/wiki/traced_monoidal_category.md` | 右・左トレース、tightening・sliding・vanishing・strength、公理、有限次元ベクトル空間の例 | 照合済み |
 | `drafts/segal_category/index.md` | `docs/wiki/segal_category.md` | Segal 条件、Segal 圏・Segal 空間、通常圏の nerve、ループ空間との接続 | 照合済み |
 | `drafts/opetopic_higher_category/index.md` | `docs/wiki/opetopic_higher_category.md` | オペトープ、合成形状、opetopic 高次圏、充填条件によるコヒーレンス | 照合済み |
+| `drafts/weighted_colimit_enriched/index.md` | `docs/wiki/weighted_colimit_enriched.md` | 重み付き極限・余極限、通常の余極限、コエンド公式、各点 Kan 拡張との関係 | 照合済み |
+| `drafts/enriched_kan_extension/index.md` | `docs/wiki/enriched_kan_extension.md` | 左右豊穣 Kan 拡張、豊穣自然変換の普遍性、重み付き余極限による各点公式 | 照合済み |
 | `drafts/measurable_function/index.md` | `docs/wiki/measurable_function.md` | 可測関数、Borel 可測性、連続関数と指示関数の例、点ごとの極限、単関数近似 | 照合済み |
 | `drafts/orthonormal_basis/index.md` | `docs/wiki/orthonormal_basis.md` | 正規直交系・基底、ノルム収束による展開、非可算添字の和、Parseval 等式 | 照合済み |
 | `drafts/riesz_representation_theorem/index.md` | `docs/wiki/riesz_representation_theorem.md` | Riesz 表現定理、内積の線形変数、等長共役線形同型、実 Hilbert 空間の場合 | 照合済み |
