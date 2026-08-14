@@ -20,7 +20,7 @@ tags:
 >
 > - 対象の類 $`\operatorname{Ob}(C)`$。
 > - 各 $`a\in C`$ に対する基底対象 $`\epsilon(a)\in\operatorname{Ob}(\mathfrak{B})`$。これを $`a`$ の **extent** という。
-> - 各 $`a,b\in C`$ に対する 1 射 $`C(a,b)colon\epsilon(a)\to\epsilon(b)`$。
+> - 各 $`a,b\in C`$ に対する 1 射 $`C(a,b)\colon\epsilon(a)\to\epsilon(b)`$。
 > - 単位 2 射 $`1_{\epsilon(a)}\Rightarrow C(a,a)`$。
 > - 合成 2 射 $`C(b,c)\circ C(a,b)\Rightarrow C(a,c)`$。
 >

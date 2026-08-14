@@ -21,3 +21,22 @@ Hom 圏の対象を 1-射、その射を 2-射という。
 ## 例
 
 圏、函手、自然変換からなる $`\mathsf{Cat}`$ は厳格 2-圏である。
+
+## 豊穣圏の厳密 2 圏
+
+基底モノイダル圏 $`\mathcal{V}`$ に対し、$`\mathcal{V}`$-圏、$`\mathcal{V}`$-函手、$`\mathcal{V}`$-自然変換は厳格 2 圏
+
+```math
+\mathcal{V}\text{-}\mathsf{Cat}
+```
+
+をなす。
+この 2 圏の 0-射は $`\mathcal{V}`$-圏、1-射は $`\mathcal{V}`$-函手、2-射は $`\mathcal{V}`$-自然変換である。
+
+2 射の垂直合成は成分ごとの合成であり、水平合成は whiskering と成分合成から定まる。
+両合成は交換法則を満たす。
+
+$`\mathcal{V}=\mathsf{Set}`$ の場合、$`\mathcal{V}\text{-}\mathsf{Cat}`$ は通常の 2 圏 $`\mathsf{Cat}`$ に一致する。
+豊穣随伴と豊穣 Kan 拡張は、この 2 圏における随伴と Kan 拡張として扱える。
+
+豊穣函手と豊穣自然変換の定義は [豊穣函手](./enriched_functor.md) と [豊穣自然変換](./enriched_natural_transformation.md) を参照されたい。

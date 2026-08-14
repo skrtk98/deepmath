@@ -137,6 +137,7 @@
 | `drafts/comma_object_2_category/index.md` | `docs/wiki/universal_property_in_2_category.md` | コンマ対象の Hom 圏による普遍性、2 射レベルの充満忠実性、双圏での擬普遍性、iso-comma 対象 | 照合済み |
 | `drafts/enriched_over_bicategory/index.md` | `docs/wiki/enriched_over_bicategory.md` | extent、双圏の 1 射による Hom、単位・合成 2 射、コヒーレンス、1 対象双圏と通常の豊穣圏、$`\mathsf{Prof}`$ の例 | 照合済み |
 | `drafts/special_adjoint_functor_theorem/index.md` | `docs/wiki/adjoint_functor.md` | 特殊随伴函手定理、完備性・局所小性・well-powered 性・余生成集合、極限保存性、双対形 | 照合済み |
+| `drafts/enriched_strict_2_category/index.md` | `docs/wiki/bicategory.md` | $`\mathcal{V}\text{-}\mathsf{Cat}`$ の 0・1・2 射、垂直・水平合成、交換法則、$`\mathsf{Set}`$ における $`\mathsf{Cat}`$ | 照合済み |
 | `drafts/measurable_function/index.md` | `docs/wiki/measurable_function.md` | 可測関数、Borel 可測性、連続関数と指示関数の例、点ごとの極限、単関数近似 | 照合済み |
 | `drafts/orthonormal_basis/index.md` | `docs/wiki/orthonormal_basis.md` | 正規直交系・基底、ノルム収束による展開、非可算添字の和、Parseval 等式 | 照合済み |
 | `drafts/riesz_representation_theorem/index.md` | `docs/wiki/riesz_representation_theorem.md` | Riesz 表現定理、内積の線形変数、等長共役線形同型、実 Hilbert 空間の場合 | 照合済み |
