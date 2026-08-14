@@ -140,6 +140,7 @@
 | `drafts/enriched_strict_2_category/index.md` | `docs/wiki/bicategory.md` | $`\mathcal{V}\text{-}\mathsf{Cat}`$ の 0・1・2 射、垂直・水平合成、交換法則、$`\mathsf{Set}`$ における $`\mathsf{Cat}`$ | 照合済み |
 | `drafts/enriched_universal_morphism/index.md` | `docs/wiki/enriched_universal_morphism.md` | 豊穣普遍射、Hom 対象の自然同型、双対形、豊穣随伴の対象ごとの存在判定、通常の普遍射との対応 | 照合済み |
 | `drafts/enriched_presheaf_module/index.md` | `docs/wiki/enriched_free_cocompletion.md` | 豊穣前層圏、点ごとの左加群作用、米田埋め込み、自由余完備性、重み付き余極限による拡張 | 照合済み |
+| `drafts/benabou_cosmos_enrichment/index.md` | `docs/wiki/benabou_cosmos_enrichment.md` | cosmos の仮定、豊穣函手圏のエンド、コエンドによる重み付き余極限、米田・Kan 拡張、$`\mathsf{Set}`$・$`\mathsf{sSet}`$ の例 | 照合済み |
 | `drafts/measurable_function/index.md` | `docs/wiki/measurable_function.md` | 可測関数、Borel 可測性、連続関数と指示関数の例、点ごとの極限、単関数近似 | 照合済み |
 | `drafts/orthonormal_basis/index.md` | `docs/wiki/orthonormal_basis.md` | 正規直交系・基底、ノルム収束による展開、非可算添字の和、Parseval 等式 | 照合済み |
 | `drafts/riesz_representation_theorem/index.md` | `docs/wiki/riesz_representation_theorem.md` | Riesz 表現定理、内積の線形変数、等長共役線形同型、実 Hilbert 空間の場合 | 照合済み |
