@@ -44,6 +44,9 @@
 | `drafts/eilenberg_moore_category/index.md` | `docs/wiki/eilenberg_moore_category.md` | モナド代数、準同型、自由・忘却随伴、Kleisli 圏との比較 | 照合済み |
 | `drafts/monoidal_functor/index.md` | `docs/wiki/monoidal_functor.md` | ラックス構造、結合子とのコヒーレンス TikZ 図式、正規・強・厳格モノイダル函手 | 照合済み |
 | `drafts/monoidal_natural_transformation/index.md` | `docs/wiki/monoidal_natural_transformation.md` | 構造射との可換条件、単位条件、モノイダル函手の圏、強モノイダル函手 | 照合済み |
+| `drafts/closed_monoidal_category/index.md` | `docs/wiki/closed_monoidal_category.md` | 左右閉性、内部 Hom、評価・余評価、集合の例 | 照合済み |
+| `drafts/braided_monoidal_category/index.md` | `docs/wiki/braided_monoidal_category.md` | 組紐、六角形公理、TikZ 図式、ベクトル空間の例 | 照合済み |
+| `drafts/symmetric_monoidal_category/index.md` | `docs/wiki/symmetric_monoidal_category.md` | 対称性、集合・可換群・ベクトル空間の例、カルテシアン圏 | 照合済み |
 
 ## 体論
 
