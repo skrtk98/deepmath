@@ -109,6 +109,8 @@
 | `drafts/operator_norm/index.md` | `docs/wiki/operator_norm.md` | 作用素ノルム、最小の有界定数、基本評価、劣乗法性、作用素空間の完備性 | 照合済み |
 | `drafts/compact_operator/index.md` | `docs/wiki/compact_operator.md` | コンパクト作用素、任意の有界集合による特徴付け、有限階作用素、ノルム閉性、スペクトル定理との接続 | 照合済み |
 | `drafts/self_adjoint_operator/index.md` | `docs/wiki/self_adjoint_operator.md` | 稠密定義自己共役作用素、有界の場合の内積による特徴付け、実スペクトル、スペクトル定理 | 照合済み |
+| `drafts/extension_field/index.md` | `docs/wiki/field_extension.md` | 拡大体・中間体・拡大次数・有限次拡大、塔の法則と基底による説明 | 照合済み |
+| `drafts/dedekind_domain/index.md` | `docs/wiki/dedekind_domain.md` | Dedekind 整域、非零イデアルの一意分解、分数イデアル、類群、主イデアル整域と代数体整数環の例 | 照合済み |
 
 ## 解析学と関数解析
 
