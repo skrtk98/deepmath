@@ -49,6 +49,8 @@
 | `drafts/kan_extension/index.md` | `docs/wiki/kan_extension.md` | 左右 Kan 拡張の普遍性、因子化、コンマ圏上の各点極限・余極限公式 | 照合済み |
 | `drafts/pointwise_kan_extension/index.md` | `docs/wiki/pointwise_kan_extension.md` | 豊穣左・右各点公式、重みの向き、通常の圏におけるコンマ圏公式、コエンド・エンドとの接続 | 照合済み |
 | `drafts/end_and_coend/index.md` | `docs/wiki/end_and_coend.md` | 楔・余楔、エンド・コエンドの普遍性、自然変換のエンド表示、余米田型コエンド、集合値コエンドの余等化子表示 | 照合済み |
+| `drafts/product_category/index.md` | `docs/wiki/product_category.md` | 直積圏の対象・射・成分ごとの合成、射影函手、$`\mathsf{Cat}`$ における積の普遍性 | 照合済み |
+| `drafts/coproduct_category/index.md` | `docs/wiki/coproduct_category.md` | 余積圏（直和圏）の対象・射、標準包含函手、$`\mathsf{Cat}`$ における余積の普遍性 | 照合済み |
 | `drafts/monoidal_functor/index.md` | `docs/wiki/monoidal_functor.md` | ラックス構造、結合子とのコヒーレンス TikZ 図式、正規・強・厳格モノイダル函手 | 照合済み |
 | `drafts/monoidal_natural_transformation/index.md` | `docs/wiki/monoidal_natural_transformation.md` | 構造射との可換条件、単位条件、モノイダル函手の圏、強モノイダル函手 | 照合済み |
 | `drafts/closed_monoidal_category/index.md` | `docs/wiki/closed_monoidal_category.md` | 左右閉性、内部 Hom、評価・余評価、集合の例 | 照合済み |
