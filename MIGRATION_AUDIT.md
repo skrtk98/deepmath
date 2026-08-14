@@ -107,6 +107,7 @@
 | `drafts/local_homeomorphism/index.md` | `docs/wiki/local_homeomorphism.md` | 局所同相写像、開写像性、全射性・単射性を要しない点、被覆写像との関係 | 照合済み |
 | `drafts/covering_space/index.md` | `docs/wiki/covering_space.md` | 被覆写像、シートへの分解、局所同相、経路・ホモトピー持ち上げ、円周とトーラスの例、分類定理の仮定 | 照合済み |
 | `drafts/section/index.md` | `docs/wiki/retraction.md` | 断面、分裂モノ射、直積射影の断面、レトラクションとの関係 | 照合済み |
+| `drafts/compact-open_topology/index.md` | `docs/wiki/compact_open_topology.md` | コンパクト開位相、部分基、正しい型の Curry 化と逆 Curry 化、評価写像の連続性に必要な局所コンパクト性条件 | 照合済み |
 | `drafts/metric_topology/index.md` | `docs/wiki/metric_space.md` | 開球による近傍基と距離位相、位相的同値、可分性・第2可算性・Lindelöf 性、コンパクト性の同値 | 照合済み |
 | `drafts/metrizable_topological_space/index.md` | `docs/wiki/metrizable_topological_space.md` | 距離化可能性、同相不変性、必要条件、正則第2可算空間に対する距離化定理 | 照合済み |
 | `drafts/operator_norm/index.md` | `docs/wiki/operator_norm.md` | 作用素ノルム、最小の有界定数、基本評価、劣乗法性、作用素空間の完備性 | 照合済み |
