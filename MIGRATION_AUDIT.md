@@ -125,10 +125,13 @@
 | `drafts/self_adjoint_operator/index.md` | `docs/wiki/self_adjoint_operator.md` | 稠密定義自己共役作用素、有界の場合の内積による特徴付け、実スペクトル、スペクトル定理 | 照合済み |
 | `drafts/extension_field/index.md` | `docs/wiki/field_extension.md` | 拡大体・中間体・拡大次数・有限次拡大、塔の法則と基底による説明 | 照合済み |
 | `drafts/dedekind_domain/index.md` | `docs/wiki/dedekind_domain.md` | Dedekind 整域、非零イデアルの一意分解、分数イデアル、類群、主イデアル整域と代数体整数環の例 | 照合済み |
+| `drafts/extension_field/index.md` | `docs/wiki/field_extension.md` | 拡大体、基礎体、中間体、拡大次数、有限次・無限次拡大、塔の法則 | 照合済み |
 | `drafts/affine_connection/index.md` | `docs/wiki/affine_connection.md` | アフィン接続、$`C^\infty(M)`$-線形性と Leibniz 則、Christoffel 記号、捩率、曲率、Levi–Civita 接続 | 照合済み |
 | `drafts/geodesic/index.md` | `docs/wiki/geodesic.md` | 測地線方程式、局所座標表示、初期値問題、測地的完備性、Hopf–Rinow 定理の適用範囲 | 照合済み |
 | `drafts/complex_manifold/index.md` | `docs/wiki/complex_manifold.md` | 複素多様体、複素アトラスと双正則遷移写像、実次元、複素射影空間と Riemann 面の例 | 照合済み |
 | `drafts/symplectic_manifold/index.md` | `docs/wiki/symplectic_manifold.md` | シンプレクティック多様体、閉性と非退化性、偶数次元、標準形式、余接束の標準形式 | 照合済み |
+| `drafts/smooth_manifold/index.md` | `docs/wiki/manifold.md` | 滑らかアトラスと最大アトラス、滑らか多様体、射影空間を含む例 | 照合済み |
+| `drafts/oppposite_group/index.md` | `docs/wiki/opposite_group.md` | 反対群、積の反転、逆元写像による同型 | 照合済み |
 
 ## 解析学と関数解析
 
