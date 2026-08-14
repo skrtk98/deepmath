@@ -142,6 +142,9 @@
 | `drafts/enriched_presheaf_module/index.md` | `docs/wiki/enriched_free_cocompletion.md` | 豊穣前層圏、点ごとの左加群作用、米田埋め込み、自由余完備性、重み付き余極限による拡張 | 照合済み |
 | `drafts/benabou_cosmos_enrichment/index.md` | `docs/wiki/benabou_cosmos_enrichment.md` | cosmos の仮定、豊穣函手圏のエンド、コエンドによる重み付き余極限、米田・Kan 拡張、$`\mathsf{Set}`$・$`\mathsf{sSet}`$ の例 | 照合済み |
 | `drafts/protocategory/index.md` | `docs/wiki/protocategory.md` | 原射と source-target・合成関係による提示、Hom 集合、通常の圏との情報量の差、関数グラフの例 | 照合済み |
+| `drafts/Introduction-to-Category-Theory.md` | `docs/wiki/category_theory_overview.md` | 圏論の目的、基礎概念から普遍性・随伴・極限への学習導線、日本語を含む参考文献 | 照合済み |
+| `drafts/Introduction-to-Monoidal-Category-Theory.md` | `docs/wiki/monoidal_category_overview.md` | テンソル積の役割、モノイダル構造・組紐・対称性・閉性・双対性への学習導線、参考文献 | 照合済み |
+| `drafts/Introduction-to-Enriched-Categor-over-Monoidal-base-Theory.md` | `docs/wiki/enriched_category_overview.md` | モノイダル基底上の豊穣圏、例、基礎から米田・重み付き余極限・Kan 拡張への学習導線、参考文献 | 照合済み |
 | `drafts/measurable_function/index.md` | `docs/wiki/measurable_function.md` | 可測関数、Borel 可測性、連続関数と指示関数の例、点ごとの極限、単関数近似 | 照合済み |
 | `drafts/orthonormal_basis/index.md` | `docs/wiki/orthonormal_basis.md` | 正規直交系・基底、ノルム収束による展開、非可算添字の和、Parseval 等式 | 照合済み |
 | `drafts/riesz_representation_theorem/index.md` | `docs/wiki/riesz_representation_theorem.md` | Riesz 表現定理、内積の線形変数、等長共役線形同型、実 Hilbert 空間の場合 | 照合済み |
