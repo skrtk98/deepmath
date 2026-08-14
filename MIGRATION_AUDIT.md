@@ -112,6 +112,9 @@
 | `drafts/homotopy/index.md` | `docs/wiki/homotopy.md` | ホモトピー、ホモトピー同値、凸集合の変形収縮、基本群・ホモロジーのホモトピー不変性 | 照合済み |
 | `drafts/fundamental_group/index.md` | `docs/wiki/fundamental_group.md` | 基本群、端点固定ホモトピー、連結積、球面・トーラスの例、被覆空間との関係 | 照合済み |
 | `drafts/homology/index.md` | `docs/wiki/homology.md` | 鎖複体のホモロジー、サイクル・バウンダリー、特異ホモロジー、ホモトピー不変性 | 照合済み |
+| `drafts/constant_morphism/index.md` | `docs/wiki/constant_morphism.md` | 左右定値射、零射圏の零射との区別、零対象を通る射の例 | 照合済み |
+| `drafts/hom_functor/index.md` | `docs/wiki/hom_functor.md` | Hom 二変数函手、合成による作用、固定変数版、表現可能前層、極限・余極限との関係 | 照合済み |
+| `drafts/final_functor/index.md` | `docs/wiki/final_functor.md` | 終函手・始函手、コンマ圏による判定、余極限・極限の添字圏の置換 | 照合済み |
 | `drafts/metric_topology/index.md` | `docs/wiki/metric_space.md` | 開球による近傍基と距離位相、位相的同値、可分性・第2可算性・Lindelöf 性、コンパクト性の同値 | 照合済み |
 | `drafts/metrizable_topological_space/index.md` | `docs/wiki/metrizable_topological_space.md` | 距離化可能性、同相不変性、必要条件、正則第2可算空間に対する距離化定理 | 照合済み |
 | `drafts/operator_norm/index.md` | `docs/wiki/operator_norm.md` | 作用素ノルム、最小の有界定数、基本評価、劣乗法性、作用素空間の完備性 | 照合済み |
