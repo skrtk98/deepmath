@@ -21,7 +21,7 @@ tags:
 >
 > ```math
 > [A,B](F,G)
-> =int_{a\in A}B(Fa,Ga)
+> =\int_{a\in A}B(Fa,Ga)
 > ```
 >
 > とする $`\mathcal{V}`$-圏である。
