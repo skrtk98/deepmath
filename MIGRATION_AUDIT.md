@@ -53,6 +53,14 @@
 | `drafts/derived_functor/index.md` | `docs/wiki/derived_functor.md` | 左右導来関手、入射・射影解消、選択からの独立性、長完全系列 | 照合済み |
 | `drafts/ext_and_tor/index.md` | `docs/wiki/ext_and_tor.md` | Ext と Tor の定義、短完全系列の分類、平坦性、整数加群の例 | 照合済み |
 
+## 位相の基礎
+
+| 草稿 | 移行先 | 確認事項 | 状態 |
+| --- | --- | --- | --- |
+| `drafts/neighbourhood_system/index.md` | `docs/wiki/neighbourhood_system.md` | 近傍、フィルター性、近傍系と位相の相互復元、粗細の比較、連続性 | 照合済み |
+| `drafts/topological_basis/index.md` | `docs/wiki/topological_basis.md` | 開基の条件、生成する位相、可算開基、開基の比較、有限共通部分による生成 | 照合済み |
+| `drafts/closure_operator/index.md` | `docs/wiki/closure_operator.md` | 閉包作用素の公理、触点による特徴付け、閉包作用素と位相の相互復元 | 照合済み |
+
 ## 運用規則
 
 各分野の移行前に、草稿の見出し、定義、仮定、例、命題、証明、可換図式、参考文献、内部リンクを一覧化する。

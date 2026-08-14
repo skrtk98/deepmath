@@ -28,8 +28,13 @@ A\subseteq\overline{A},\qquad
 
 また、$`A\subseteq B`$ ならば $`\overline{A}\subseteq\overline{B}`$ である。
 
+有限和について $`\overline{A\cup B}=\overline{A}\cup\overline{B}`$ が成り立ち、$`\overline{\varnothing}=\varnothing`$ である。
+したがって $`A\mapsto\overline{A}`$ は、冪集合上の広義単調、冪等、有限和を保つ閉包作用素である。
+
 部分集合 $`A`$ が閉集合であることと、$`\overline{A}=A`$ が成り立つことは同値である。
 
 ## 点による特徴付け
 
 点 $`x\in X`$ が $`\overline{A}`$ に属することと、$`x`$ の任意の近傍が $`A`$ と交わることは同値である。
+
+逆に、この公理を満たす閉包作用素から、補集合が閉包で不変な集合を開集合と定めることで位相を復元できる。
