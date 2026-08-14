@@ -69,6 +69,15 @@
 | `drafts/normed_space/index.md` | `docs/wiki/normed_space.md` | ノルムの公理、誘導距離、有限次元の例 | 照合済み |
 | `drafts/banach_space/index.md` | `docs/wiki/banach_space.md` | 完備性、Cauchy 列、有限次元、$`\ell^p`$、$`L^p`$、$`C(K)`$ の例 | 照合済み |
 
+## 微分幾何
+
+| 草稿 | 移行先 | 確認事項 | 状態 |
+| --- | --- | --- | --- |
+| `drafts/manifold/index.md` | `docs/wiki/manifold.md` | 位相多様体、滑らかアトラス、球面・トーラス・Lie 群、接束と微分形式 | 照合済み |
+| `drafts/tangent_bundle/index.md` | `docs/wiki/tangent_bundle.md` | 接束、ユークリッド空間の自明化、ベクトル場、大域的非自明性 | 照合済み |
+| `drafts/cotangent_bundle/index.md` | `docs/wiki/cotangent_bundle.md` | 余接束、ユークリッド空間の自明化、1-形式、標準シンプレクティック形式 | 照合済み |
+| `drafts/differential_form/index.md` | `docs/wiki/differential_form.md` | $`k`$-形式、外微分、$`df`$、面積・体積形式、Stokes の定理 | 照合済み |
+
 ## 運用規則
 
 各分野の移行前に、草稿の見出し、定義、仮定、例、命題、証明、可換図式、参考文献、内部リンクを一覧化する。
