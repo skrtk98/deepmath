@@ -33,6 +33,8 @@
 | `drafts/pullback/index.md` | `docs/wiki/pullback.md` | 引き戻しの普遍性、TikZ 図式、集合と半順序の例、積・等化子による構成、押し出しとの双対性 | 照合済み |
 | `drafts/kernel/index.md` | `docs/wiki/kernel.md` | 零射に関する普遍性、等化子としての記述、可換群の例、モノ射性、余核との双対性 | 照合済み |
 | `drafts/cokernel/index.md` | `docs/wiki/cokernel.md` | 零射に関する普遍性、余等化子としての記述、可換群の例、エピ射性、核との双対性 | 照合済み |
+| `drafts/representable_functor/index.md` | `docs/wiki/representable_functor.md` | 共変・反変の表現可能性、集合・群の例、普遍元、表現対象の一意性 | 照合済み |
+| `drafts/yoneda_lemma/index.md` | `docs/wiki/yoneda_lemma.md` | 反変の米田対応、対応式、米田埋め込み、表現対象の一意性 | 照合済み |
 
 ## 運用規則
 
