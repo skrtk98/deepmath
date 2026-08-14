@@ -37,6 +37,8 @@
 | `drafts/yoneda_lemma/index.md` | `docs/wiki/yoneda_lemma.md` | 反変の米田対応、対応式、米田埋め込み、表現対象の一意性 | 照合済み |
 | `drafts/category_equivalence/index.md` | `docs/wiki/category_equivalence.md` | 擬逆と自然同型、充満忠実かつ本質的全射による判定、骨格圏の例、圏同型との区別 | 照合済み |
 | `drafts/comma_category/index.md` | `docs/wiki/comma_category.md` | 三つ組と可換条件による定義、スライス圏とコスライス圏の例、射影函手 | 照合済み |
+| `drafts/cone/index.md` | `docs/wiki/cone.md` | 錐と余錐、自然変換による定式化、錐集合、極限・余極限との関係 | 照合済み |
+| `drafts/filtered_category/index.md` | `docs/wiki/filtered_category.md` | フィルター付き圏、余フィルター付き圏、有向系、有限極限との可換性 | 照合済み |
 
 ## 体論
 
