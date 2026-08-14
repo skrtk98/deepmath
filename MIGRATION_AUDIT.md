@@ -45,6 +45,7 @@
 | `drafts/coimage/index.md` | `docs/wiki/coimage.md` | エピ射因子化、普遍性、核・余核、アーベル圏での像との関係、可換群の例 | 照合済み |
 | `drafts/hom_set/index.md` | `docs/wiki/hom_set.md` | Hom 集合、局所小性、集合・群・前順序の例、豊穣 Hom と内部 Hom の区別 | 照合済み |
 | `drafts/presheaf/index.md` | `docs/wiki/presheaf.md` | 前層、前層圏、米田埋め込み、点ごとの極限と余極限、表現可能前層 | 照合済み |
+| `drafts/co_yoneda_lemma/index.md` | `docs/wiki/co_yoneda_lemma.md` | 余米田公式、コエンドでの同一視、表現可能前層による前層の標準表示、米田の補題との対応 | 照合済み |
 | `drafts/monoidal_functor/index.md` | `docs/wiki/monoidal_functor.md` | ラックス構造、結合子とのコヒーレンス TikZ 図式、正規・強・厳格モノイダル函手 | 照合済み |
 | `drafts/monoidal_natural_transformation/index.md` | `docs/wiki/monoidal_natural_transformation.md` | 構造射との可換条件、単位条件、モノイダル函手の圏、強モノイダル函手 | 照合済み |
 | `drafts/closed_monoidal_category/index.md` | `docs/wiki/closed_monoidal_category.md` | 左右閉性、内部 Hom、評価・余評価、集合の例 | 照合済み |
