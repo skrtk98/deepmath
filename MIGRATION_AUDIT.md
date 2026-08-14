@@ -133,6 +133,7 @@
 | `drafts/enriched_functor_category/index.md` | `docs/wiki/enriched_functor_category.md` | エンドによる Hom 対象、下部圏と豊穣自然変換、内部 Hom としての普遍性、豊穣前層圏 | 照合済み |
 | `drafts/enriched_adjoint_equivalence/index.md` | `docs/wiki/enriched_adjoint_equivalence.md` | Hom 対象の自然同型、単位・余単位と三角恒等式、下部圏随伴、豊穣同値、$`\mathsf{Set}`$・$`2`$・$`\mathsf{Cat}`$ の例 | 照合済み |
 | `drafts/enriched_free_cocompletion/index.md` | `docs/wiki/enriched_free_cocompletion.md` | 前層圏の豊穣自由余完備性、余極限保存函手の分類、米田拡張のコエンド公式、Kan 拡張、小前層へのサイズ制限 | 照合済み |
+| `drafts/universal_property_in_2_category/index.md` | `docs/wiki/universal_property_in_2_category.md` | 2 圏・双圏での随伴、左・右 Kan 拡張、コンマ対象、Hom 圏同値による普遍性、TikZ 図式 | 照合済み |
 | `drafts/measurable_function/index.md` | `docs/wiki/measurable_function.md` | 可測関数、Borel 可測性、連続関数と指示関数の例、点ごとの極限、単関数近似 | 照合済み |
 | `drafts/orthonormal_basis/index.md` | `docs/wiki/orthonormal_basis.md` | 正規直交系・基底、ノルム収束による展開、非可算添字の和、Parseval 等式 | 照合済み |
 | `drafts/riesz_representation_theorem/index.md` | `docs/wiki/riesz_representation_theorem.md` | Riesz 表現定理、内積の線形変数、等長共役線形同型、実 Hilbert 空間の場合 | 照合済み |
