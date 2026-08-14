@@ -17,12 +17,12 @@ tags:
 
 ## 2 圏における随伴
 
-対象 $`A,B`$ と 1 射 $`Fcolon A\to B`$、$`Gcolon B\to A`$ に対し、2 射
+対象 $`A,B`$ と 1 射 $`F\colon A\to B`$、$`G\colon B\to A`$ に対し、2 射
 
 ```math
-\etacolon1_A\Rightarrow GF,
+\eta\colon1_A\Rightarrow GF,
 \qquad
-\varepsiloncolon FG\Rightarrow1_B
+\varepsilon\colon FG\Rightarrow1_B
 ```
 
 が三角恒等式を満たすとき、$`F`$ は $`G`$ の左随伴である。
@@ -56,10 +56,10 @@ tags:
 
 ## 2 圏における左 Kan 拡張
 
-1 射 $`Kcolon C\to D`$ と $`Ecolon C\to U`$ に対し、$`E`$ の $`K`$ に沿う **左 Kan 拡張** は、1 射 $`Lcolon D\to U`$ と 2 射 $`\etacolon E\Rightarrow LK`$ の組である。
+1 射 $`K\colon C\to D`$ と $`E\colon C\to U`$ に対し、$`E`$ の $`K`$ に沿う **左 Kan 拡張** は、1 射 $`L\colon D\to U`$ と 2 射 $`\eta\colon E\Rightarrow LK`$ の組である。
 
 > [!definition] 左 Kan 拡張の普遍性
-> 組 $`(L,\eta)`$ が左 Kan 拡張であるとは、任意の 1 射 $`Scolon D\to U`$ に対して、$`\eta`$ との鉛直合成で定まる函手
+> 組 $`(L,\eta)`$ が左 Kan 拡張であるとは、任意の 1 射 $`S\colon D\to U`$ に対して、$`\eta`$ との鉛直合成で定まる函手
 >
 > ```math
 > \mathcal{K}(D,U)(L,S)
@@ -74,7 +74,7 @@ tags:
 
 ## コンマ対象
 
-1 射 $`Fcolon A\to C`$ と $`Gcolon B\to C`$ に対する **コンマ対象** は、対象 $`F\downarrow G`$、射影 1 射 $`Pcolon F\downarrow G\to A`$、$`Qcolon F\downarrow G\to B`$、および 2 射 $`\thetacolon FP\Rightarrow GQ`$ からなる。
+1 射 $`F\colon A\to C`$ と $`G\colon B\to C`$ に対する **コンマ対象** は、対象 $`F\downarrow G`$、射影 1 射 $`P\colon F\downarrow G\to A`$、$`Q\colon F\downarrow G\to B`$、および 2 射 $`\theta\colon FP\Rightarrow GQ`$ からなる。
 
 ```latex {cmd=true latex_zoom=190% hide=true}
 \documentclass{standalone}
@@ -94,7 +94,10 @@ tags:
 \end{document}
 ```
 
-普遍性は、任意の $`X`$ に対して $`\mathcal{K}(X,F\downarrow G)`$ が、上図のような組 $`(p,q,\alphacolon Fp\Rightarrow Gq)`$ からなる圏と同値であることとして表される。
+普遍性は、任意の $`X`$ に対して $`\mathcal{K}(X,F\downarrow G)`$ が、上図のような組 $`(p,q,\alpha\colon Fp\Rightarrow Gq)`$ からなる圏と同値であることとして表される。
 この同値は射影と 2 射 $`\theta`$ により自然に定まる。
+
+2 射 $`\theta`$ が可逆であるコンマ対象を **iso-comma 対象** という。
+iso-comma 対象は、2-射まで含めて引き戻しを比較する際に用いられる。
 
 通常の圏における普遍射は [普遍性](./universal_property.md) を、コンマ圏は [コンマ圏](./comma_category.md) を参照されたい。
