@@ -10,14 +10,14 @@ tags:
 
 通常の圏では、対象 $`X,Y`$ の間の射は集合 $`\mathcal{C}(X,Y)`$ をなす。
 
-豊穣圏では、この射集合を、あらかじめ定めたモノイダル圏 $`(\mathcal{V},\otimes,I)`$ の対象に置き換える。
+豊穣圏では、この射集合を、あらかじめ定めた [モノイダル圏](./monoidal_category.md) $`(\mathcal{V},\otimes,I)`$ の対象に置き換える。
 
 このとき $`\mathcal{C}(X,Y)`$ は集合とは限らず、アーベル群、ベクトル空間、半順序集合などの構造を持つ。
 
 ## 定義
 
 > [!definition] $`\mathcal{V}`$-豊穣圏
-> モノイダル圏 $`\mathcal{V}`$ 上の **豊穣圏** (*$`\mathcal{V}`$-enriched category*) $`\mathcal{C}`$ とは、次のデータからなる。
+> [モノイダル圏](./monoidal_category.md) $`\mathcal{V}`$ 上の **豊穣圏** (*$`\mathcal{V}`$-enriched category*) $`\mathcal{C}`$ とは、次のデータからなる。
 >
 > - 対象の類 $`\operatorname{Ob}(\mathcal{C})`$。
 > - 各対象 $`X,Y`$ に対する $`\mathcal{V}`$ の対象 $`\mathcal{C}(X,Y)`$。
