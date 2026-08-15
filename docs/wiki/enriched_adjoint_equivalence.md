@@ -11,7 +11,7 @@ tags:
 豊穣随伴は、二つの豊穣函手の間の普遍性を Hom 対象の同型として表す。
 この定義は下部圏における通常の随伴より強く、基底圏に含まれる線形性、順序、または高次射の構造を保持する。
 
-以下で $`\mathcal{V}`$ をモノイダル圏、$`A,B`$ を $`\mathcal{V}`$-圏、$`F\colon A\to B`$ と $`G\colon B\to A`$ を豊穣函手とする。
+以下で $`\mathcal{V}`$ を [モノイダル圏](./monoidal_category.md)、$`A,B`$ を $`\mathcal{V}`$-圏、$`F\colon A\to B`$ と $`G\colon B\to A`$ を豊穣函手とする。
 
 ## 豊穣随伴
 

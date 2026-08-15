@@ -11,7 +11,7 @@ tags:
 豊穣普遍射は、一意な因子化を集合の全単射ではなく Hom 対象の自然同型として記述する。
 この構成は豊穣随伴の存在を対象ごとの表現可能性へ帰着する。
 
-以下で $`\mathcal{V}`$ をモノイダル圏、$`T\colon A\to B`$ を $`\mathcal{V}`$-函手、$`b\in B`$ とする。
+以下で $`\mathcal{V}`$ を [モノイダル圏](./monoidal_category.md)、$`T\colon A\to B`$ を $`\mathcal{V}`$-函手、$`b\in B`$ とする。
 
 ## $`b`$ から $`T`$ への普遍射
 

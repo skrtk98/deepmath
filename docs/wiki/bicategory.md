@@ -24,7 +24,7 @@ Hom 圏の対象を 1-射、その射を 2-射という。
 
 ## 豊穣圏の厳密 2 圏
 
-基底モノイダル圏 $`\mathcal{V}`$ に対し、$`\mathcal{V}`$-圏、$`\mathcal{V}`$-函手、$`\mathcal{V}`$-自然変換は厳格 2 圏
+基底 [モノイダル圏](./monoidal_category.md) $`\mathcal{V}`$ に対し、$`\mathcal{V}`$-圏、$`\mathcal{V}`$-函手、$`\mathcal{V}`$-自然変換は厳格 2 圏
 
 ```math
 \mathcal{V}\text{-}\mathsf{Cat}

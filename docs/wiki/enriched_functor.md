@@ -12,7 +12,7 @@ tags:
 ## 定義
 
 > [!definition] 豊穣函手
-> モノイダル圏 $`\mathcal{V}`$ 上の豊穣圏 $`\mathcal{A},\mathcal{B}`$ に対し、$`\mathcal{V}`$-豊穣函手 $`F\colon\mathcal{A}\to\mathcal{B}`$ とは、対象写像と、各 $`a,a'` に対する射
+> [モノイダル圏](./monoidal_category.md) $`\mathcal{V}`$ 上の豊穣圏 $`\mathcal{A},\mathcal{B}`$ に対し、$`\mathcal{V}`$-豊穣函手 $`F\colon\mathcal{A}\to\mathcal{B}`$ とは、対象写像と、各 $`a,a'` に対する射
 >
 > ```math
 > F_{a,a'}\colon\mathcal{A}(a,a')\to\mathcal{B}(Fa,Fa')
