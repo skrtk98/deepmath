@@ -25,11 +25,13 @@
 
 ## Concept tags
 
-- Add YAML front matter with tags to every substantive concept page under `docs/wiki/`. Do not tag empty placeholder files; add tags when their content is written.
-- Assign at least one **field hierarchy tag**, using slash-separated Japanese names such as `代数学/群論`, `代数学/環論`, or `圏論`. Add a more specific child only when it improves discovery, for example `代数学/群論/可換群`.
-- Assign one to three **cross-cutting concept tags** that express reusable mathematical relationships or properties, such as `加法構造`, `準同型`, `商構成`, `部分構造`, `生成`, `可換性`, or `分配法則`.
-- Do not use generic document-type tags such as `定義`, `命題`, `証明`, or `数学`. Tags must support finding related concepts across fields.
-- Reuse established tag spellings. Introduce a new tag only when no existing field or cross-cutting tag captures the relationship; prefer a concise noun phrase.
+- Follow `docs/tagging.md` as the authoritative tagging policy.
+- Add YAML front matter with tags to every substantive concept page under `docs/wiki/`. Do not tag empty placeholder files.
+- Assign exactly one primary **field hierarchy tag**. Use a second field hierarchy tag only when the definition or main result genuinely belongs to both fields.
+- Assign one to three **cross-cutting concept tags**. They must express reusable structures, constructions, properties, or central theory apparatuses.
+- Do not tag a page with its title automatically. A title term is a tag only when it is a reusable navigation concept, as with `モノイダル圏` or `随伴`.
+- Do not use generic document-type tags such as `定義`, `命題`, `証明`, `数学`, or one-off editorial labels.
+- Reuse established spellings. Introduce a tag only when no existing tag expresses the required distinction.
 - Keep the global index at `docs/tags.md` with the `<!-- material/tags -->` marker. Do not use the deprecated `tags_file` plugin option.
 
 ## Custom MkDocs plugins

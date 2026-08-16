@@ -3,6 +3,7 @@ site_name: DeepMath
 nav:
   - Home: index.md
   - 概念索引: tags.md
+  - タグ付け規則: tagging.md
 
 markdown_extensions:
   - nl2br
