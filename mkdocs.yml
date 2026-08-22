@@ -5,6 +5,9 @@ nav:
   - 概念索引: tags.md
   - タグ付け規則: tagging.md
 
+draft_docs: |
+  /drafts/
+
 markdown_extensions:
   - nl2br
   - attr_list
@@ -35,6 +38,9 @@ plugins:
       tags_hierarchy: true
   - search:
       lang: ja
+  - redirects:
+  - minify:
+      minify_html: true
   - css-build:
       enabled: false
       command: ["npm", "run", "build:css"]
@@ -53,9 +59,9 @@ extra_css:
 
 extra:
   social:
-    - icon: fontawesome/solid/paper-plane
-      link: https://docs.google.com/forms/d/e/1FAIpQLSdB0lfwmgO5wFXWQEr_J1C6hlfV1aNTAC5ObHVZwRiFMEE9eA/viewform?usp=header
-      name: お問い合わせフォーム
+    - icon: fontawesome/brands/github
+      link: https://github.com/skrtk98/deepmath/issues/new
+      name: GitHub Issues
 
 theme:
   name: material

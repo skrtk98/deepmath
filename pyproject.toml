@@ -8,6 +8,8 @@ dependencies = [
     "markdown-katex>=202406.1035",
     "mkdocs>=1.6.1",
     "mkdocs-material[recommended]>=9.7.3",
+    "mkdocs-minify-plugin>=0.8.0",
+    "mkdocs-redirects>=1.2.2",
     "pypdf>=6.7.5",
 ]
 

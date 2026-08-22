@@ -112,6 +112,8 @@ dependencies = [
     { name = "markdown-katex" },
     { name = "mkdocs" },
     { name = "mkdocs-material", extra = ["recommended"] },
+    { name = "mkdocs-minify-plugin" },
+    { name = "mkdocs-redirects" },
     { name = "pypdf" },
 ]
 
@@ -120,6 +122,8 @@ requires-dist = [
     { name = "markdown-katex", specifier = ">=202406.1035" },
     { name = "mkdocs", specifier = ">=1.6.1" },
     { name = "mkdocs-material", extras = ["recommended"], specifier = ">=9.7.3" },
+    { name = "mkdocs-minify-plugin", specifier = ">=0.8.0" },
+    { name = "mkdocs-redirects", specifier = ">=1.2.2" },
     { name = "pypdf", specifier = ">=6.7.5" },
 ]
 
